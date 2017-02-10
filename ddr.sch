@@ -31,6 +31,9 @@ LIBS:valves
 LIBS:opendous
 LIBS:tps65217c
 LIBS:pwr
+LIBS:pushbutton
+LIBS:tl5209
+LIBS:tl1963adcqr
 LIBS:mateboard-cache
 EELAYER 25 0
 EELAYER END

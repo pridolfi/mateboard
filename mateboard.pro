@@ -1,4 +1,4 @@
-update=Thu 09 Feb 2017 12:30:47 PM ART
+update=Fri 10 Feb 2017 03:00:24 PM ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=schlib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,3 +61,6 @@ LibName29=valves
 LibName30=schlib/opendous
 LibName31=schlib/tps65217c
 LibName32=schlib/pwr
+LibName33=schlib/pushbutton
+LibName34=schlib/tl5209
+LibName35=schlib/tl1963adcqr
