@@ -1,4 +1,4 @@
-update=Fri 10 Feb 2017 03:00:24 PM ART
+update=Mon 20 Feb 2017 05:32:37 PM ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,4 @@ LibName32=schlib/pwr
 LibName33=schlib/pushbutton
 LibName34=schlib/tl5209
 LibName35=schlib/tl1963adcqr
+LibName36=schlib/ddr3_sdram
