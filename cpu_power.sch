@@ -35,12 +35,14 @@ LIBS:pushbutton
 LIBS:tl5209
 LIBS:tl1963adcqr
 LIBS:ddr3_sdram
+LIBS:nand_4gb
+LIBS:microsd
 LIBS:mateboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -175,7 +177,7 @@ $EndComp
 Wire Wire Line
 	4700 3500 4700 3400
 Wire Wire Line
-	4800 3400 4700 3400
+	4700 3400 4800 3400
 Wire Wire Line
 	4800 3200 4800 3500
 Connection ~ 4800 3400
@@ -1248,7 +1250,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 3500 8850 3400
 Wire Wire Line
-	8950 3400 8850 3400
+	8850 3400 8950 3400
 Wire Wire Line
 	8950 1825 8950 3500
 $Comp
