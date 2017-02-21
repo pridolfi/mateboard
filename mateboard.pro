@@ -1,4 +1,4 @@
-update=Tue 21 Feb 2017 04:00:18 PM ART
+update=Tue 21 Feb 2017 05:18:42 PM ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,3 +67,5 @@ LibName35=schlib/tl1963adcqr
 LibName36=schlib/ddr3_sdram
 LibName37=schlib/nand_4gb
 LibName38=schlib/microsd
+LibName39=schlib/tpd4s012
+LibName40=schlib/tps2065cdgn

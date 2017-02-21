@@ -37,6 +37,8 @@ LIBS:tl1963adcqr
 LIBS:ddr3_sdram
 LIBS:nand_4gb
 LIBS:microsd
+LIBS:tpd4s012
+LIBS:tps2065cdgn
 LIBS:mateboard-cache
 EELAYER 25 0
 EELAYER END
@@ -562,4 +564,8 @@ Wire Wire Line
 	5825 5075 5600 5075
 Wire Wire Line
 	5825 5175 5600 5175
+Wire Wire Line
+	5600 1700 6150 1700
+Text HLabel 6150 1700 2    60   Input ~ 0
+USB1_OCn
 $EndSCHEMATC
