@@ -1,4 +1,4 @@
-update=Tue 21 Feb 2017 05:18:42 PM ART
+update=Thu 23 Feb 2017 04:45:12 PM ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -69,3 +69,4 @@ LibName37=schlib/nand_4gb
 LibName38=schlib/microsd
 LibName39=schlib/tpd4s012
 LibName40=schlib/tps2065cdgn
+LibName41=schlib/74lvc1g07dck

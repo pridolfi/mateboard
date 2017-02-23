@@ -39,6 +39,7 @@ LIBS:nand_4gb
 LIBS:microsd
 LIBS:tpd4s012
 LIBS:tps2065cdgn
+LIBS:74lvc1g07dck
 LIBS:mateboard-cache
 EELAYER 25 0
 EELAYER END

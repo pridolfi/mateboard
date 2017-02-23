@@ -39,6 +39,7 @@ LIBS:nand_4gb
 LIBS:microsd
 LIBS:tpd4s012
 LIBS:tps2065cdgn
+LIBS:74lvc1g07dck
 LIBS:mateboard-cache
 EELAYER 25 0
 EELAYER END
@@ -2680,4 +2681,13 @@ Wire Wire Line
 	7850 5950 7950 5950
 Connection ~ 7950 5950
 Connection ~ 7350 6325
+Text HLabel 7150 6300 0    60   BiDi ~ 0
+VSS_RTC
+Wire Wire Line
+	7150 6300 7250 6300
+Wire Wire Line
+	7250 6300 7250 5950
+Wire Wire Line
+	7250 5950 7350 5950
+Connection ~ 7350 5950
 $EndSCHEMATC
