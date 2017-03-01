@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:mateboard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1291,4 +1292,6 @@ F 3 "" H 9100 2000 50  0000 C CNN
 	1    9100 2000
 	1    0    0    -1  
 $EndComp
+Text Notes 8325 5350 0    60   ~ 0
+high precision resistors, see am335x datasheet
 $EndSCHEMATC

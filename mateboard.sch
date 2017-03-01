@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:mateboard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -86,7 +87,7 @@ F1 "io.sch" 60
 F2 "MMC0_CD" I R 8150 2850 60 
 $EndSheet
 $Comp
-L USB_OTG P?
+L USB_OTG-RESCUE-mateboard P?
 U 1 1 589C9196
 P 1175 2000
 F 0 "P?" V 1500 1875 50  0000 C CNN
@@ -97,7 +98,7 @@ F 3 "" V 1125 1900 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L USB_A P?
+L USB_A-RESCUE-mateboard P?
 U 1 1 589C92E9
 P 1175 3800
 F 0 "P?" V 1375 3675 50  0000 C CNN
@@ -108,7 +109,7 @@ F 3 "" V 1125 3700 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L USB_OTG P?
+L USB_OTG-RESCUE-mateboard P?
 U 1 1 589C94AD
 P 1175 2900
 F 0 "P?" V 1475 2775 50  0000 C CNN
@@ -561,4 +562,6 @@ Wire Wire Line
 	6125 1200 6675 1200
 Wire Wire Line
 	4400 1000 3850 1000
+Text Notes 575  7675 0    60   ~ 0
+References:\nhttp://processors.wiki.ti.com/index.php/AM335x_Hardware_Design_Guide\nhttp://processors.wiki.ti.com/index.php/AM335x_Schematic_Checklist\n
 $EndSCHEMATC

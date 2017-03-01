@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:mateboard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -149,9 +150,7 @@ F 3 "" H 2950 3825 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 3825 2950 3875
-Wire Wire Line
-	2950 3875 2950 3925
+	2950 3825 2950 3925
 Wire Wire Line
 	2950 3925 3000 3925
 $Comp
@@ -193,9 +192,7 @@ F 3 "" H 4300 3825 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 3825 4300 3875
-Wire Wire Line
-	4300 3875 4300 3925
+	4300 3825 4300 3925
 Wire Wire Line
 	4300 3925 4200 3925
 $Comp
@@ -369,9 +366,7 @@ $EndComp
 Wire Wire Line
 	1200 4825 2025 4825
 Wire Wire Line
-	2325 4825 2425 4825
-Wire Wire Line
-	2425 4825 3000 4825
+	2325 4825 3000 4825
 Wire Wire Line
 	2425 4875 2425 4825
 Connection ~ 2425 4825
@@ -479,19 +474,9 @@ Wire Wire Line
 Wire Wire Line
 	1100 4525 3000 4525
 Wire Wire Line
-	1100 3425 1100 3475
+	1100 3425 1100 3625
 Wire Wire Line
-	1100 3475 1100 3625
-Wire Wire Line
-	1100 3475 1225 3475
-Wire Wire Line
-	1225 3475 1350 3475
-Wire Wire Line
-	1350 3475 1475 3475
-Wire Wire Line
-	1475 3475 1600 3475
-Wire Wire Line
-	1600 3475 1725 3475
+	1100 3475 1725 3475
 Wire Wire Line
 	1725 3475 1725 3625
 Wire Wire Line
