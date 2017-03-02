@@ -371,19 +371,7 @@ Wire Wire Line
 	8950 775  8950 900 
 Connection ~ 8950 775 
 Wire Wire Line
-	8475 775  8550 775 
-Wire Wire Line
-	8550 775  8650 775 
-Wire Wire Line
-	8650 775  8750 775 
-Wire Wire Line
-	8750 775  8850 775 
-Wire Wire Line
-	8850 775  8950 775 
-Wire Wire Line
-	8950 775  9050 775 
-Wire Wire Line
-	9050 775  9150 775 
+	8475 775  9150 775 
 Wire Wire Line
 	9050 775  9050 900 
 Connection ~ 9050 775 
@@ -393,19 +381,13 @@ Connection ~ 8650 775
 Wire Wire Line
 	9150 1200 9150 1250
 Wire Wire Line
-	8150 1250 9150 1250
+	8150 1250 9225 1250
 Wire Wire Line
-	9150 1250 9225 1250
-Wire Wire Line
-	8150 1350 9050 1350
-Wire Wire Line
-	9050 1350 9225 1350
+	8150 1350 9225 1350
 Wire Wire Line
 	9050 1350 9050 1200
 Wire Wire Line
-	8150 1450 8950 1450
-Wire Wire Line
-	8950 1450 9225 1450
+	8150 1450 9225 1450
 Wire Wire Line
 	8950 1450 8950 1200
 Wire Wire Line
@@ -413,9 +395,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 1550 8550 775 
 Wire Wire Line
-	8150 1650 8850 1650
-Wire Wire Line
-	8850 1650 9225 1650
+	8150 1650 9225 1650
 Wire Wire Line
 	8850 1650 8850 1200
 $Comp
@@ -430,21 +410,15 @@ F 3 "" H 9150 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 1750 9150 2200
-Wire Wire Line
-	9150 2200 9150 2250
+	9150 1750 9150 2250
 Wire Wire Line
 	9150 1750 9225 1750
 Wire Wire Line
-	8150 1850 8750 1850
-Wire Wire Line
-	8750 1850 9225 1850
+	8150 1850 9225 1850
 Wire Wire Line
 	8750 1850 8750 1200
 Wire Wire Line
-	8150 1950 8650 1950
-Wire Wire Line
-	8650 1950 9225 1950
+	8150 1950 9225 1950
 Wire Wire Line
 	8650 1950 8650 1200
 $Comp
@@ -462,9 +436,7 @@ Wire Wire Line
 	8475 900  8475 775 
 Connection ~ 8550 775 
 Wire Wire Line
-	8475 1200 8475 2100
-Wire Wire Line
-	8475 2100 8475 2850
+	8475 1200 8475 2850
 Wire Wire Line
 	9225 2200 9150 2200
 Connection ~ 9150 2200
@@ -612,9 +584,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 2850 6275 2850
 Wire Wire Line
-	6275 2400 6275 2850
-Wire Wire Line
-	6275 2850 6275 4650
+	6275 2400 6275 4650
 Wire Wire Line
 	6275 2400 6125 2400
 Wire Wire Line
