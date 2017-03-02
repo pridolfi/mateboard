@@ -47,7 +47,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -224,43 +224,10 @@ F 3 "" H 1650 2925 50  0000 C CNN
 	1    1650 2925
 	0    1    1    0   
 $EndComp
-$Comp
-L R R?
-U 1 1 589DF352
-P 3250 2050
-F 0 "R?" V 3330 2050 50  0000 C CNN
-F 1 "1.5k" V 3250 2050 50  0000 C CNN
-F 2 "" V 3180 2050 50  0000 C CNN
-F 3 "" H 3250 2050 50  0000 C CNN
-	1    3250 2050
-	1    0    0    -1  
-$EndComp
 Text HLabel 2475 2550 0    60   Input ~ 0
 I2C0_SCL
 Text HLabel 2475 2650 0    60   BiDi ~ 0
 I2C0_SDA
-$Comp
-L R R?
-U 1 1 589DF4C3
-P 3000 2050
-F 0 "R?" V 3080 2050 50  0000 C CNN
-F 1 "1.5k" V 3000 2050 50  0000 C CNN
-F 2 "" V 2930 2050 50  0000 C CNN
-F 3 "" H 3000 2050 50  0000 C CNN
-	1    3000 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L VDD_3V3A #PWR?
-U 1 1 589DF53D
-P 3125 1825
-F 0 "#PWR?" H 3125 1675 50  0001 C CNN
-F 1 "VDD_3V3A" H 3125 1975 50  0000 C CNN
-F 2 "" H 3125 1825 50  0000 C CNN
-F 3 "" H 3125 1825 50  0000 C CNN
-	1    3125 1825
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C?
 U 1 1 589DFDE4
@@ -328,21 +295,6 @@ Wire Wire Line
 	2475 2550 5025 2550
 Wire Wire Line
 	2475 2650 5025 2650
-Wire Wire Line
-	3000 1900 3000 1875
-Wire Wire Line
-	3000 1875 3250 1875
-Wire Wire Line
-	3250 1875 3250 1900
-Wire Wire Line
-	3125 1825 3125 1875
-Connection ~ 3125 1875
-Wire Wire Line
-	3000 2200 3000 2550
-Connection ~ 3000 2550
-Wire Wire Line
-	3250 2200 3250 2650
-Connection ~ 3250 2650
 Wire Wire Line
 	4300 3350 5025 3350
 Wire Wire Line
