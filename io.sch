@@ -150,4 +150,23 @@ Wire Wire Line
 	5675 1400 5900 1400
 Text HLabel 5900 1400 2    60   BiDi ~ 0
 GPIO3_20
+Wire Wire Line
+	5675 800  6125 800 
+Text Label 5700 800  0    60   ~ 0
+GPIO3_18
+$Comp
+L R R?
+U 1 1 58B968BF
+P 6275 800
+F 0 "R?" V 6355 800 50  0000 C CNN
+F 1 "0R" V 6275 800 50  0000 C CNN
+F 2 "" V 6205 800 50  0001 C CNN
+F 3 "" H 6275 800 50  0001 C CNN
+	1    6275 800 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6425 800  6500 800 
+Text HLabel 6500 800  2    60   BiDi ~ 0
+GPIO0_7
 $EndSCHEMATC
