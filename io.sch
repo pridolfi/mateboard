@@ -41,6 +41,7 @@ LIBS:microsd
 LIBS:tpd4s012
 LIBS:tps2065cdgn
 LIBS:74lvc1g07dck
+LIBS:wl1835modgbmoct
 LIBS:mateboard-cache
 EELAYER 25 0
 EELAYER END
@@ -145,4 +146,8 @@ F 3 "" H 700 6350 60  0001 C CNN
 	8    700  6350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5675 1400 5900 1400
+Text HLabel 5900 1400 2    60   BiDi ~ 0
+GPIO3_20
 $EndSCHEMATC

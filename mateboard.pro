@@ -1,4 +1,4 @@
-update=Mon 27 Feb 2017 11:15:27 AM ART
+update=Thu 02 Mar 2017 05:28:11 PM ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,3 +71,14 @@ LibName39=schlib/microsd
 LibName40=schlib/tpd4s012
 LibName41=schlib/tps2065cdgn
 LibName42=schlib/74lvc1g07dck
+LibName43=schlib/wl1835modgbmoct
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=doc/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

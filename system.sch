@@ -41,6 +41,7 @@ LIBS:microsd
 LIBS:tpd4s012
 LIBS:tps2065cdgn
 LIBS:74lvc1g07dck
+LIBS:wl1835modgbmoct
 LIBS:mateboard-cache
 EELAYER 25 0
 EELAYER END
@@ -423,7 +424,7 @@ Wire Wire Line
 Text Label 6200 4275 2    60   ~ 0
 JTAG_EMU2
 Wire Wire Line
-	5725 4375 6200 4375
+	5725 4375 6350 4375
 Text Label 6200 4375 2    60   ~ 0
 JTAG_EMU3
 Text Label 2825 6050 0    60   ~ 0
@@ -670,4 +671,19 @@ Text HLabel 6225 4775 2    60   BiDi ~ 0
 GPIO0_7
 Wire Wire Line
 	6225 4775 6100 4775
+$Comp
+L L L?
+U 1 1 58B9CB53
+P 6500 4375
+F 0 "L?" V 6450 4375 50  0000 C CNN
+F 1 "BLM15AG102SN1D" V 6575 4375 50  0000 C CNN
+F 2 "" H 6500 4375 50  0001 C CNN
+F 3 "" H 6500 4375 50  0001 C CNN
+	1    6500 4375
+	0    1    1    0   
+$EndComp
+Text HLabel 6900 4375 2    60   Output ~ 0
+CLKOUT2
+Wire Wire Line
+	6900 4375 6650 4375
 $EndSCHEMATC

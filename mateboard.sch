@@ -41,6 +41,7 @@ LIBS:microsd
 LIBS:tpd4s012
 LIBS:tps2065cdgn
 LIBS:74lvc1g07dck
+LIBS:wl1835modgbmoct
 LIBS:mateboard-cache
 EELAYER 25 0
 EELAYER END
@@ -85,6 +86,7 @@ U 589C7F89
 F0 "GPIO-I2C-SPI-UART" 60
 F1 "io.sch" 60
 F2 "MMC0_CD" I R 8150 2850 60 
+F3 "GPIO3_20" B L 6900 2850 60 
 $EndSheet
 $Comp
 L USB_OTG-RESCUE-mateboard P?
@@ -239,6 +241,7 @@ F7 "SYS_RESETn" O R 6125 1200 60
 F8 "JTAG_EMU4" O R 6125 1100 60 
 F9 "PMIC_POWER_EN" O L 4400 1000 60 
 F10 "GPIO0_7" B R 6125 1300 60 
+F11 "CLKOUT2" O R 6125 2400 60 
 $EndSheet
 $Sheet
 S 6900 850  1250 1650
@@ -368,7 +371,19 @@ Wire Wire Line
 	8950 775  8950 900 
 Connection ~ 8950 775 
 Wire Wire Line
-	8475 775  9150 775 
+	8475 775  8550 775 
+Wire Wire Line
+	8550 775  8650 775 
+Wire Wire Line
+	8650 775  8750 775 
+Wire Wire Line
+	8750 775  8850 775 
+Wire Wire Line
+	8850 775  8950 775 
+Wire Wire Line
+	8950 775  9050 775 
+Wire Wire Line
+	9050 775  9150 775 
 Wire Wire Line
 	9050 775  9050 900 
 Connection ~ 9050 775 
@@ -378,13 +393,19 @@ Connection ~ 8650 775
 Wire Wire Line
 	9150 1200 9150 1250
 Wire Wire Line
-	8150 1250 9225 1250
+	8150 1250 9150 1250
 Wire Wire Line
-	8150 1350 9225 1350
+	9150 1250 9225 1250
+Wire Wire Line
+	8150 1350 9050 1350
+Wire Wire Line
+	9050 1350 9225 1350
 Wire Wire Line
 	9050 1350 9050 1200
 Wire Wire Line
-	8150 1450 9225 1450
+	8150 1450 8950 1450
+Wire Wire Line
+	8950 1450 9225 1450
 Wire Wire Line
 	8950 1450 8950 1200
 Wire Wire Line
@@ -392,7 +413,9 @@ Wire Wire Line
 Wire Wire Line
 	8550 1550 8550 775 
 Wire Wire Line
-	8150 1650 9225 1650
+	8150 1650 8850 1650
+Wire Wire Line
+	8850 1650 9225 1650
 Wire Wire Line
 	8850 1650 8850 1200
 $Comp
@@ -407,15 +430,21 @@ F 3 "" H 9150 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 1750 9150 2250
+	9150 1750 9150 2200
+Wire Wire Line
+	9150 2200 9150 2250
 Wire Wire Line
 	9150 1750 9225 1750
 Wire Wire Line
-	8150 1850 9225 1850
+	8150 1850 8750 1850
+Wire Wire Line
+	8750 1850 9225 1850
 Wire Wire Line
 	8750 1850 8750 1200
 Wire Wire Line
-	8150 1950 9225 1950
+	8150 1950 8650 1950
+Wire Wire Line
+	8650 1950 9225 1950
 Wire Wire Line
 	8650 1950 8650 1200
 $Comp
@@ -433,7 +462,9 @@ Wire Wire Line
 	8475 900  8475 775 
 Connection ~ 8550 775 
 Wire Wire Line
-	8475 1200 8475 2850
+	8475 1200 8475 2100
+Wire Wire Line
+	8475 2100 8475 2850
 Wire Wire Line
 	9225 2200 9150 2200
 Connection ~ 9150 2200
@@ -521,19 +552,20 @@ F 3 "" H 1475 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3850 2800 6350 2800
+	3850 2800 6375 2800
 Text Label 4400 2800 2    60   ~ 0
 USB1_OCn
 Wire Wire Line
-	6350 2400 6900 2400
+	6375 2400 6900 2400
 $Sheet
 S 6900 4550 1250 1550
 U 58AD6197
 F0 "Wi-Fi BLE" 60
 F1 "wifi.sch" 60
+F2 "CLKOUT2" I L 6900 4650 60 
 $EndSheet
 Wire Wire Line
-	6350 2800 6350 2400
+	6375 2800 6375 2400
 Wire Wire Line
 	4400 2000 3850 2000
 Wire Wire Line
@@ -564,4 +596,28 @@ Wire Wire Line
 	4400 1000 3850 1000
 Text Notes 575  7675 0    60   ~ 0
 References:\nhttp://processors.wiki.ti.com/index.php/AM335x_Hardware_Design_Guide\nhttp://processors.wiki.ti.com/index.php/AM335x_Schematic_Checklist\n
+$Comp
+L R R?
+U 1 1 58BA190C
+P 6650 2850
+F 0 "R?" V 6730 2850 50  0000 C CNN
+F 1 "0R" V 6650 2850 50  0000 C CNN
+F 2 "" V 6580 2850 50  0001 C CNN
+F 3 "" H 6650 2850 50  0001 C CNN
+	1    6650 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 2850 6900 2850
+Wire Wire Line
+	6500 2850 6275 2850
+Wire Wire Line
+	6275 2400 6275 2850
+Wire Wire Line
+	6275 2850 6275 4650
+Wire Wire Line
+	6275 2400 6125 2400
+Wire Wire Line
+	6275 4650 6900 4650
+Connection ~ 6275 2850
 $EndSCHEMATC
