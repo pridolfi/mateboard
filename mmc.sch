@@ -619,4 +619,68 @@ Wire Wire Line
 	5600 1800 6150 1800
 Text HLabel 6150 1800 2    60   BiDi ~ 0
 GPIO1_27
+Wire Wire Line
+	5600 4000 6150 4000
+Text HLabel 6150 4000 2    60   Output ~ 0
+TIMER7
+Wire Wire Line
+	5600 4100 6150 4100
+Text HLabel 6150 4100 2    60   Output ~ 0
+TIMER6
+Wire Wire Line
+	5600 3600 6150 3600
+Text HLabel 6150 3600 2    60   Output ~ 0
+TIMER4
+Wire Wire Line
+	5600 3700 6150 3700
+Text HLabel 6150 3700 2    60   Output ~ 0
+TIMER5
+Wire Wire Line
+	5600 3800 6150 3800
+Text HLabel 6150 3800 2    60   BiDi ~ 0
+GPIO1_28
+Wire Wire Line
+	5600 3900 6150 3900
+Text HLabel 6150 3900 2    60   BiDi ~ 0
+GPIO2_1
+Wire Wire Line
+	5600 4200 6150 4200
+Text HLabel 6150 4200 2    60   Output ~ 0
+UART4_TXD
+Wire Wire Line
+	5600 4300 6150 4300
+Text HLabel 6150 4300 2    60   Input ~ 0
+UART4_RXD
+Wire Wire Line
+	5600 4400 6150 4400
+Text HLabel 6150 4400 2    60   BiDi ~ 0
+GPIO1_29
+Wire Wire Line
+	5600 4700 6150 4700
+Text HLabel 6150 4700 2    60   BiDi ~ 0
+GPIO2_0
+Wire Wire Line
+	5600 2950 6150 2950
+Text HLabel 6150 2950 2    60   BiDi ~ 0
+GPIO0_26
+Wire Wire Line
+	5600 3050 6150 3050
+Text HLabel 6150 3050 2    60   BiDi ~ 0
+GPIO0_27
+Wire Wire Line
+	5600 3150 6150 3150
+Text HLabel 6150 3150 2    60   BiDi ~ 0
+GPIO1_12
+Wire Wire Line
+	5600 3250 6150 3250
+Text HLabel 6150 3250 2    60   BiDi ~ 0
+GPIO1_13
+Wire Wire Line
+	5600 3350 6150 3350
+Text HLabel 6150 3350 2    60   BiDi ~ 0
+GPIO1_14
+Wire Wire Line
+	5600 3450 6150 3450
+Text HLabel 6150 3450 2    60   BiDi ~ 0
+GPIO1_15
 $EndSCHEMATC

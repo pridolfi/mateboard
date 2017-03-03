@@ -47,7 +47,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -438,4 +438,6 @@ Wire Wire Line
 Connection ~ 6200 3250
 Text Label 7500 3250 0    60   ~ 0
 USB1_PWR
+Text Notes 6625 4475 0    60   ~ 0
+tantalum cap
 $EndSCHEMATC

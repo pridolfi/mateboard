@@ -47,7 +47,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -467,4 +467,6 @@ Text HLabel 6250 4350 2    60   BiDi ~ 0
 GPIO2_25
 Wire Wire Line
 	6250 4350 6150 4350
+Text Notes 8550 4425 0    60   ~ 0
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5\n0 0 x 1 1 1 0 0 0 0 0 0 0 0 1 0
 $EndSCHEMATC

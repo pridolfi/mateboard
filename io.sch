@@ -159,15 +159,11 @@ GPIO0_7
 Text HLabel 6325 4900 2    60   BiDi ~ 0
 I2C0_SCL
 Wire Wire Line
-	5700 4900 6175 4900
-Wire Wire Line
-	6175 4900 6325 4900
+	5700 4900 6325 4900
 Text HLabel 6325 4800 2    60   BiDi ~ 0
 I2C0_SDA
 Wire Wire Line
-	5700 4800 6175 4800
-Wire Wire Line
-	6175 4800 6325 4800
+	5700 4800 6325 4800
 $Comp
 L R R?
 U 1 1 58BBAFBC
@@ -214,9 +210,7 @@ $EndComp
 Wire Wire Line
 	7325 4800 7275 4800
 Wire Wire Line
-	7275 4750 7275 4800
-Wire Wire Line
-	7275 4800 7275 4850
+	7275 4750 7275 4850
 Wire Wire Line
 	7275 4750 7175 4750
 Wire Wire Line
@@ -261,9 +255,7 @@ F 3 "" H 5925 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5675 3150 5725 3150
-Wire Wire Line
-	5725 3150 5775 3150
+	5675 3150 5775 3150
 Wire Wire Line
 	5775 3250 5725 3250
 Wire Wire Line
@@ -541,9 +533,7 @@ $EndComp
 Wire Wire Line
 	8300 2800 8225 2800
 Wire Wire Line
-	8225 2750 8225 2800
-Wire Wire Line
-	8225 2800 8225 2950
+	8225 2750 8225 2950
 $Comp
 L VDD_3V3B #PWR?
 U 1 1 58BCCC2F
@@ -570,9 +560,7 @@ $EndComp
 Wire Wire Line
 	7200 3725 7200 3350
 Wire Wire Line
-	7125 3350 7200 3350
-Wire Wire Line
-	7200 3350 7775 3350
+	7125 3350 7775 3350
 $Comp
 L GNDD #PWR?
 U 1 1 58BCD10A
@@ -651,13 +639,9 @@ F 3 "" H 8450 4550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8750 4550 8800 4550
+	8750 4550 9300 4550
 Wire Wire Line
-	8800 4550 9300 4550
-Wire Wire Line
-	9300 4500 9300 4550
-Wire Wire Line
-	9300 4550 9300 4600
+	9300 4500 9300 4600
 Connection ~ 9300 4550
 $Comp
 L R R?
