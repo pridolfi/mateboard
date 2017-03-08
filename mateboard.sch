@@ -391,19 +391,7 @@ Wire Wire Line
 	9100 700  9100 825 
 Connection ~ 9100 700 
 Wire Wire Line
-	8625 700  8700 700 
-Wire Wire Line
-	8700 700  8800 700 
-Wire Wire Line
-	8800 700  8900 700 
-Wire Wire Line
-	8900 700  9000 700 
-Wire Wire Line
-	9000 700  9100 700 
-Wire Wire Line
-	9100 700  9200 700 
-Wire Wire Line
-	9200 700  9300 700 
+	8625 700  9300 700 
 Wire Wire Line
 	9200 700  9200 825 
 Connection ~ 9200 700 
@@ -413,19 +401,13 @@ Connection ~ 8800 700
 Wire Wire Line
 	9300 1125 9300 1175
 Wire Wire Line
-	8150 1175 9300 1175
+	8150 1175 9375 1175
 Wire Wire Line
-	9300 1175 9375 1175
-Wire Wire Line
-	8150 1275 9200 1275
-Wire Wire Line
-	9200 1275 9375 1275
+	8150 1275 9375 1275
 Wire Wire Line
 	9200 1275 9200 1125
 Wire Wire Line
-	8150 1375 9100 1375
-Wire Wire Line
-	9100 1375 9375 1375
+	8150 1375 9375 1375
 Wire Wire Line
 	9100 1375 9100 1125
 Wire Wire Line
@@ -433,9 +415,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 1475 8700 700 
 Wire Wire Line
-	8150 1575 9000 1575
-Wire Wire Line
-	9000 1575 9375 1575
+	8150 1575 9375 1575
 Wire Wire Line
 	9000 1575 9000 1125
 $Comp
@@ -450,21 +430,15 @@ F 3 "" H 9300 2175 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9300 1675 9300 2125
-Wire Wire Line
-	9300 2125 9300 2175
+	9300 1675 9300 2175
 Wire Wire Line
 	9300 1675 9375 1675
 Wire Wire Line
-	8150 1775 8900 1775
-Wire Wire Line
-	8900 1775 9375 1775
+	8150 1775 9375 1775
 Wire Wire Line
 	8900 1775 8900 1125
 Wire Wire Line
-	8150 1875 8800 1875
-Wire Wire Line
-	8800 1875 9375 1875
+	8150 1875 9375 1875
 Wire Wire Line
 	8800 1875 8800 1125
 $Comp
@@ -482,9 +456,7 @@ Wire Wire Line
 	8625 825  8625 700 
 Connection ~ 8700 700 
 Wire Wire Line
-	8625 1125 8625 2025
-Wire Wire Line
-	8625 2025 8625 3425
+	8625 1125 8625 3425
 Wire Wire Line
 	9375 2125 9300 2125
 Connection ~ 9300 2125
@@ -630,9 +602,7 @@ $EndComp
 Wire Wire Line
 	6800 3425 6900 3425
 Wire Wire Line
-	5850 2325 5850 3050
-Wire Wire Line
-	5850 3050 5850 3425
+	5850 2325 5850 3425
 Wire Wire Line
 	5850 2325 5725 2325
 Wire Wire Line
@@ -1582,4 +1552,26 @@ Wire Wire Line
 	9950 5325 9450 5325
 Text Label 9450 5325 0    60   ~ 0
 UART0_TXD
+$Comp
+L GNDA #PWR?
+U 1 1 58C01623
+P 9950 6325
+F 0 "#PWR?" H 9950 6075 50  0001 C CNN
+F 1 "GNDA" V 9950 6125 50  0000 C CNN
+F 2 "" H 9950 6325 50  0000 C CNN
+F 3 "" H 9950 6325 50  0000 C CNN
+	1    9950 6325
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 58C0231F
+P 10450 6325
+F 0 "#PWR?" H 10450 6075 50  0001 C CNN
+F 1 "GNDA" V 10450 6125 50  0000 C CNN
+F 2 "" H 10450 6325 50  0000 C CNN
+F 3 "" H 10450 6325 50  0000 C CNN
+	1    10450 6325
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC
