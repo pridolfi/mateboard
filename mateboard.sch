@@ -207,15 +207,11 @@ $EndComp
 Wire Wire Line
 	1050 4525 900  4525
 Wire Wire Line
-	900  4500 900  4525
-Wire Wire Line
-	900  4525 900  4625
+	900  4500 900  4625
 Wire Wire Line
 	1350 4525 1525 4525
 Wire Wire Line
-	1525 4500 1525 4525
-Wire Wire Line
-	1525 4525 1525 4575
+	1525 4500 1525 4575
 $Sheet
 S 2600 4050 1250 1650
 U 589E2993
@@ -238,6 +234,7 @@ F8 "JTAG_EMU4" O R 5725 1025 60
 F9 "PMIC_POWER_EN" O L 4000 925 60 
 F10 "GPIO0_7" B R 5725 1225 60 
 F11 "CLKOUT2" O R 5725 2325 60 
+F12 "CLKOUT1" O R 5725 2225 60 
 $EndSheet
 $Sheet
 S 6900 775  1250 2325
@@ -395,19 +392,7 @@ Wire Wire Line
 	9100 700  9100 825 
 Connection ~ 9100 700 
 Wire Wire Line
-	8625 700  8700 700 
-Wire Wire Line
-	8700 700  8800 700 
-Wire Wire Line
-	8800 700  8900 700 
-Wire Wire Line
-	8900 700  9000 700 
-Wire Wire Line
-	9000 700  9100 700 
-Wire Wire Line
-	9100 700  9200 700 
-Wire Wire Line
-	9200 700  9300 700 
+	8625 700  9300 700 
 Wire Wire Line
 	9200 700  9200 825 
 Connection ~ 9200 700 
@@ -417,19 +402,13 @@ Connection ~ 8800 700
 Wire Wire Line
 	9300 1125 9300 1175
 Wire Wire Line
-	8150 1175 9300 1175
+	8150 1175 9375 1175
 Wire Wire Line
-	9300 1175 9375 1175
-Wire Wire Line
-	8150 1275 9200 1275
-Wire Wire Line
-	9200 1275 9375 1275
+	8150 1275 9375 1275
 Wire Wire Line
 	9200 1275 9200 1125
 Wire Wire Line
-	8150 1375 9100 1375
-Wire Wire Line
-	9100 1375 9375 1375
+	8150 1375 9375 1375
 Wire Wire Line
 	9100 1375 9100 1125
 Wire Wire Line
@@ -437,9 +416,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 1475 8700 700 
 Wire Wire Line
-	8150 1575 9000 1575
-Wire Wire Line
-	9000 1575 9375 1575
+	8150 1575 9375 1575
 Wire Wire Line
 	9000 1575 9000 1125
 $Comp
@@ -454,21 +431,15 @@ F 3 "" H 9300 2175 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9300 1675 9300 2125
-Wire Wire Line
-	9300 2125 9300 2175
+	9300 1675 9300 2175
 Wire Wire Line
 	9300 1675 9375 1675
 Wire Wire Line
-	8150 1775 8900 1775
-Wire Wire Line
-	8900 1775 9375 1775
+	8150 1775 9375 1775
 Wire Wire Line
 	8900 1775 8900 1125
 Wire Wire Line
-	8150 1875 8800 1875
-Wire Wire Line
-	8800 1875 9375 1875
+	8150 1875 9375 1875
 Wire Wire Line
 	8800 1875 8800 1125
 $Comp
@@ -486,9 +457,7 @@ Wire Wire Line
 	8625 825  8625 700 
 Connection ~ 8700 700 
 Wire Wire Line
-	8625 1125 8625 2025
-Wire Wire Line
-	8625 2025 8625 3425
+	8625 1125 8625 3425
 Wire Wire Line
 	9375 2125 9300 2125
 Connection ~ 9300 2125
@@ -634,9 +603,7 @@ $EndComp
 Wire Wire Line
 	6800 3425 6900 3425
 Wire Wire Line
-	5850 2325 5850 3050
-Wire Wire Line
-	5850 3050 5850 3425
+	5850 2325 5850 3425
 Wire Wire Line
 	5850 2325 5725 2325
 Wire Wire Line
@@ -695,6 +662,7 @@ F9 "ACLK" I R 8150 6150 60
 F10 "AP0" I R 8150 6250 60 
 F11 "AP1" I R 8150 6350 60 
 F12 "HDMICLK_DIS" I L 6900 5850 60 
+F13 "OSC_IN" I L 6900 6150 60 
 $EndSheet
 Wire Wire Line
 	5850 3050 5725 3050
@@ -1176,20 +1144,20 @@ Wire Wire Line
 Text Label 8575 5375 2    60   ~ 0
 AIN6
 Wire Wire Line
-	8150 5750 8575 5750
-Text Label 8575 5750 2    60   ~ 0
+	8150 5750 8650 5750
+Text Label 8650 5750 2    60   ~ 0
 GPIO2_22
 Wire Wire Line
-	8150 5850 8575 5850
-Text Label 8575 5850 2    60   ~ 0
+	8150 5850 8650 5850
+Text Label 8650 5850 2    60   ~ 0
 GPIO2_23
 Wire Wire Line
-	8150 5950 8575 5950
-Text Label 8575 5950 2    60   ~ 0
+	8150 5950 8650 5950
+Text Label 8650 5950 2    60   ~ 0
 GPIO2_24
 Wire Wire Line
-	8150 6050 8575 6050
-Text Label 8575 6050 2    60   ~ 0
+	8150 6050 8650 6050
+Text Label 8650 6050 2    60   ~ 0
 GPIO2_25
 $Comp
 L CONN_02X20 J1
@@ -1628,9 +1596,7 @@ Wire Wire Line
 Text Label 9450 6025 0    60   ~ 0
 USB1_VBUS
 Wire Wire Line
-	9950 5525 9900 5525
-Wire Wire Line
-	9900 5525 9450 5525
+	9450 5525 9950 5525
 Text Label 9450 5525 0    60   ~ 0
 VBAT
 Text Label 9450 5725 0    60   ~ 0
@@ -1701,4 +1667,30 @@ Wire Wire Line
 	6050 2900 6050 5850
 Wire Wire Line
 	6050 5850 6900 5850
+Wire Wire Line
+	6900 5950 6400 5950
+Wire Wire Line
+	6400 6050 6900 6050
+Text Label 6400 6050 0    60   ~ 0
+I2C0_SDA
+Text Label 6400 5950 0    60   ~ 0
+I2C0_SCL
+Wire Wire Line
+	5725 2225 6250 2225
+Wire Wire Line
+	6250 2225 6250 6150
+Wire Wire Line
+	6250 6150 6900 6150
+Text Label 8650 6150 2    60   ~ 0
+SPI1_SCLK
+Wire Wire Line
+	8650 6150 8150 6150
+Text Label 8650 6250 2    60   ~ 0
+SPI1_MISO
+Wire Wire Line
+	8650 6250 8150 6250
+Text Label 8650 6350 2    60   ~ 0
+SPI1_CS0
+Wire Wire Line
+	8650 6350 8150 6350
 $EndSCHEMATC
