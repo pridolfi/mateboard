@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OSD335X
+D AM335x ARM Cortex-A8 Microprocessor NFBGA324
+K AM3359 AM3358 ARM Cortex A8 MPU PBGA-N324
+$ENDCMP
+#
+#End Doc Library
