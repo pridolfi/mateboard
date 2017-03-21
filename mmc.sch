@@ -42,6 +42,7 @@ LIBS:tpd4s012
 LIBS:tps2065cdgn
 LIBS:74lvc1g07dck
 LIBS:wl1835modgbmoct
+LIBS:osd335x
 LIBS:mateboard-cache
 EELAYER 25 0
 EELAYER END
@@ -527,46 +528,9 @@ Wire Wire Line
 	5600 1100 6900 1100
 Wire Wire Line
 	6900 1100 6900 3000
-$Comp
-L AM335X_ZCZ IC?
-U 10 1 58ACF85A
-P 1300 5325
-AR Path="/58ACF85A" Ref="IC?"  Part="10" 
-AR Path="/58ABDF44/58ACF85A" Ref="IC2"  Part="10" 
-F 0 "IC2" H 1400 5725 60  0000 C CNN
-F 1 "AM335X_ZCZ" H 2225 5725 60  0000 C CNN
-F 2 "" H 1300 5325 60  0001 C CNN
-F 3 "" H 1300 5325 60  0001 C CNN
-	10   1300 5325
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8100 3000 8100 2175
 Connection ~ 8100 2175
-Text HLabel 5825 5475 2    60   BiDi ~ 0
-MMC0_DAT2
-Wire Wire Line
-	5825 5475 5600 5475
-Text HLabel 5825 5575 2    60   BiDi ~ 0
-MMC0_DAT3
-Wire Wire Line
-	5825 5575 5600 5575
-Text HLabel 5825 5275 2    60   BiDi ~ 0
-MMC0_DAT0
-Text HLabel 5825 5375 2    60   BiDi ~ 0
-MMC0_DAT1
-Wire Wire Line
-	5825 5275 5600 5275
-Wire Wire Line
-	5825 5375 5600 5375
-Text HLabel 5825 5075 2    60   Output ~ 0
-MMC0_CMD
-Text HLabel 5825 5175 2    60   Output ~ 0
-MMC0_CLK
-Wire Wire Line
-	5825 5075 5600 5075
-Wire Wire Line
-	5825 5175 5600 5175
 Wire Wire Line
 	5600 1700 6150 1700
 Text HLabel 6150 1700 2    60   Input ~ 0
@@ -581,20 +545,12 @@ Wire Wire Line
 	6150 800  5600 800 
 Wire Wire Line
 	5600 900  6150 900 
-Text HLabel 6150 900  2    60   Output ~ 0
-eHRPWM1A
 Wire Wire Line
 	5600 1000 6150 1000
-Text HLabel 6150 1000 2    60   Output ~ 0
-eHRPWM1B
 Wire Wire Line
 	5600 2750 6150 2750
-Text HLabel 6150 2750 2    60   Output ~ 0
-eHRPWM2A
 Wire Wire Line
 	5600 2850 6150 2850
-Text HLabel 6150 2850 2    60   Output ~ 0
-eHRPWM2B
 Wire Wire Line
 	5600 1200 6150 1200
 Text HLabel 6150 1200 2    60   Output ~ 0
@@ -621,19 +577,19 @@ Text HLabel 6150 1800 2    60   BiDi ~ 0
 GPIO1_27
 Wire Wire Line
 	5600 4000 6150 4000
-Text HLabel 6150 4000 2    60   Output ~ 0
+Text HLabel 7950 4000 2    60   Output ~ 0
 TIMER7
 Wire Wire Line
 	5600 4100 6150 4100
-Text HLabel 6150 4100 2    60   Output ~ 0
+Text HLabel 7950 4100 2    60   Output ~ 0
 TIMER6
 Wire Wire Line
 	5600 3600 6150 3600
-Text HLabel 6150 3600 2    60   Output ~ 0
+Text HLabel 7950 3775 2    60   Output ~ 0
 TIMER4
 Wire Wire Line
 	5600 3700 6150 3700
-Text HLabel 6150 3700 2    60   Output ~ 0
+Text HLabel 7950 3875 2    60   Output ~ 0
 TIMER5
 Wire Wire Line
 	5600 3800 6150 3800

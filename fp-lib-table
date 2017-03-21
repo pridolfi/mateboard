@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name opendous)(type Legacy)(uri "$(KIPRJMOD)/footprints.pretty/opendous.mod")(options "")(descr ""))
   (lib (name footprints)(type KiCad)(uri "$(KIPRJMOD)/footprints.pretty")(options "")(descr ""))
+  (lib (name bbblue)(type Legacy)(uri "$(KIPRJMOD)/footprints.pretty/BeagleBone_Blue.mod")(options "")(descr ""))
 )
