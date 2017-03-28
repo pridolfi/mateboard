@@ -48,7 +48,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -65,6 +65,7 @@ P 1150 3400
 AR Path="/58BD44E1" Ref="IC?"  Part="8" 
 AR Path="/589C7F89/58BD44E1" Ref="IC?"  Part="8" 
 AR Path="/58BD360A/58BD44E1" Ref="IC2"  Part="8" 
+AR Path="/58D9E82A/58BD44E1" Ref="IC2"  Part="8" 
 F 0 "IC2" H 1250 4500 60  0000 C CNN
 F 1 "AM335X_ZCZ" H 1925 4500 60  0000 C CNN
 F 2 "" H 1150 3400 60  0001 C CNN
