@@ -1301,4 +1301,6 @@ Wire Wire Line
 	1100 2300 1700 2300
 Text HLabel 1700 2300 2    60   BiDi ~ 0
 LCD_DATA15
+Entry Wire Line
+	3850 2050 3950 2150
 $EndSCHEMATC
