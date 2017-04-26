@@ -605,26 +605,26 @@ UART0_RXD
 Text Label 3425 5050 0    60   ~ 0
 UART0_TXD
 Wire Wire Line
-	925  4050 1500 4050
+	9125 3750 9700 3750
 Wire Wire Line
-	925  4150 1500 4150
-Text Label 925  4050 0    60   ~ 0
+	9125 3850 9700 3850
+Text Label 9125 3750 0    60   ~ 0
 UART0_RXD
-Text Label 925  4150 0    60   ~ 0
+Text Label 9125 3850 0    60   ~ 0
 UART0_TXD
 $Comp
 L GNDD #PWR06
 U 1 1 58E0D114
-P 975 3950
-F 0 "#PWR06" H 975 3700 50  0001 C CNN
-F 1 "GNDD" V 975 3725 50  0000 C CNN
-F 2 "" H 975 3950 50  0001 C CNN
-F 3 "" H 975 3950 50  0001 C CNN
-	1    975  3950
+P 9175 3650
+F 0 "#PWR06" H 9175 3400 50  0001 C CNN
+F 1 "GNDD" V 9175 3425 50  0000 C CNN
+F 2 "" H 9175 3650 50  0001 C CNN
+F 3 "" H 9175 3650 50  0001 C CNN
+	1    9175 3650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	975  3950 1500 3950
+	9175 3650 9700 3650
 Wire Wire Line
 	3425 7450 4000 7450
 Wire Wire Line
@@ -634,12 +634,12 @@ UART1_RXD
 Text Label 3425 7550 0    60   ~ 0
 UART1_TXD
 Wire Wire Line
-	925  4250 1500 4250
+	9125 3950 9700 3950
 Wire Wire Line
-	925  4350 1500 4350
-Text Label 925  4250 0    60   ~ 0
+	9125 4050 9700 4050
+Text Label 9125 3950 0    60   ~ 0
 UART1_RXD
-Text Label 925  4350 0    60   ~ 0
+Text Label 9125 4050 0    60   ~ 0
 UART1_TXD
 Wire Wire Line
 	6300 7300 5725 7300
@@ -650,12 +650,12 @@ UART2_RXD
 Text Label 6300 7200 2    60   ~ 0
 UART2_TXD
 Wire Wire Line
-	925  4550 1500 4550
+	9125 4250 9700 4250
 Wire Wire Line
-	925  4450 1500 4450
-Text Label 925  4550 0    60   ~ 0
+	9125 4150 9700 4150
+Text Label 9125 4250 0    60   ~ 0
 UART2_RXD
-Text Label 925  4450 0    60   ~ 0
+Text Label 9125 4150 0    60   ~ 0
 UART2_TXD
 Text Label 3425 5150 0    60   ~ 0
 SD_BOOT
@@ -663,7 +663,7 @@ Wire Wire Line
 	2575 3550 2000 3550
 Text Label 2575 3550 2    60   ~ 0
 SD_BOOT
-Text Label 2575 3150 2    60   ~ 0
+Text Label 925  5950 0    60   ~ 0
 SYS_RESETn
 Wire Wire Line
 	2000 3150 2575 3150
@@ -788,12 +788,12 @@ UART4_RXD
 Text Label 6300 2500 2    60   ~ 0
 UART4_TXD
 Wire Wire Line
-	925  4750 1500 4750
+	9125 4450 9700 4450
 Wire Wire Line
-	925  4650 1500 4650
-Text Label 925  4750 0    60   ~ 0
+	9125 4350 9700 4350
+Text Label 9125 4450 0    60   ~ 0
 UART4_RXD
-Text Label 925  4650 0    60   ~ 0
+Text Label 9125 4350 0    60   ~ 0
 UART4_TXD
 Text Label 3425 2550 0    60   ~ 0
 JTAG_EMU1
@@ -842,12 +842,12 @@ GPIO2_0
 Text Label 3425 2450 0    60   ~ 0
 GPIO1_25
 Wire Wire Line
-	925  4850 1500 4850
+	9125 4550 9700 4550
 Wire Wire Line
-	925  4950 1500 4950
-Text Label 925  4850 0    60   ~ 0
+	9125 4650 9700 4650
+Text Label 9125 4550 0    60   ~ 0
 GPIO2_0
-Text Label 925  4950 0    60   ~ 0
+Text Label 9125 4650 0    60   ~ 0
 GPIO1_25
 Text Label 3425 3450 0    60   ~ 0
 GPIO1_29
@@ -856,28 +856,28 @@ GPIO1_16
 Text Label 3425 3650 0    60   ~ 0
 GPIO1_15
 Wire Wire Line
-	925  5050 1500 5050
+	9125 4750 9700 4750
 Wire Wire Line
-	925  5150 1500 5150
+	9125 4850 9700 4850
 Wire Wire Line
-	925  5250 1500 5250
-Text Label 925  5050 0    60   ~ 0
+	9125 4950 9700 4950
+Text Label 9125 4750 0    60   ~ 0
 GPIO1_29
-Text Label 925  5150 0    60   ~ 0
+Text Label 9125 4850 0    60   ~ 0
 GPIO1_16
-Text Label 925  5250 0    60   ~ 0
+Text Label 9125 4950 0    60   ~ 0
 GPIO1_15
 Text Label 6300 900  2    60   ~ 0
 GPIO1_13
 Text Label 6300 1000 2    60   ~ 0
 GPIO1_14
 Wire Wire Line
-	1500 5350 925  5350
+	9700 5050 9125 5050
 Wire Wire Line
-	1500 5450 925  5450
-Text Label 925  5350 0    60   ~ 0
+	9700 5150 9125 5150
+Text Label 9125 5050 0    60   ~ 0
 GPIO1_13
-Text Label 925  5450 0    60   ~ 0
+Text Label 9125 5150 0    60   ~ 0
 GPIO1_14
 Text Label 6300 1975 2    60   ~ 0
 GPIO1_12
@@ -890,24 +890,24 @@ GPIO2_1
 Text Label 6300 2375 2    60   ~ 0
 GPIO1_28
 Wire Wire Line
-	1500 5550 925  5550
+	9700 5250 9125 5250
 Wire Wire Line
-	1500 5650 925  5650
+	9700 5350 9125 5350
 Wire Wire Line
-	1500 5750 925  5750
+	9700 5450 9125 5450
 Wire Wire Line
-	1500 5850 925  5850
+	9700 5550 9125 5550
 Wire Wire Line
 	1500 5950 925  5950
-Text Label 925  5550 0    60   ~ 0
+Text Label 9125 5250 0    60   ~ 0
 GPIO1_12
-Text Label 925  5650 0    60   ~ 0
+Text Label 9125 5350 0    60   ~ 0
 GPIO0_27
-Text Label 925  5750 0    60   ~ 0
+Text Label 9125 5450 0    60   ~ 0
 GPIO0_26
-Text Label 925  5850 0    60   ~ 0
+Text Label 9125 5550 0    60   ~ 0
 GPIO2_1
-Text Label 925  5950 0    60   ~ 0
+Text Label 2575 3150 2    60   ~ 0
 GPIO1_28
 $Comp
 L GNDD #PWR09
@@ -1136,98 +1136,98 @@ LCD_DATA14
 Text Label 3425 7150 0    60   ~ 0
 LCD_DATA15
 Wire Wire Line
-	9125 3550 9700 3550
+	925  5850 1500 5850
 Wire Wire Line
-	9125 3650 9700 3650
+	925  5750 1500 5750
 Wire Wire Line
-	9125 3750 9700 3750
+	925  5650 1500 5650
 Wire Wire Line
-	9125 3850 9700 3850
+	925  5550 1500 5550
 Wire Wire Line
-	9125 4050 9700 4050
+	925  5450 1500 5450
 Wire Wire Line
-	9125 4150 9700 4150
-Text Label 9125 3550 0    60   ~ 0
+	925  5350 1500 5350
+Text Label 925  5850 0    60   ~ 0
 LCD_DE
-Text Label 9125 3650 0    60   ~ 0
+Text Label 925  5750 0    60   ~ 0
 LCD_PCLK
-Text Label 9125 3750 0    60   ~ 0
+Text Label 925  5650 0    60   ~ 0
 LCD_VSYNC
-Text Label 9125 3850 0    60   ~ 0
+Text Label 925  5550 0    60   ~ 0
 LCD_HSYNC
-Text Label 9125 4050 0    60   ~ 0
+Text Label 925  5450 0    60   ~ 0
 LCD_DATA0
-Text Label 9125 4150 0    60   ~ 0
+Text Label 925  5350 0    60   ~ 0
 LCD_DATA1
 Wire Wire Line
-	9125 4250 9700 4250
+	925  5250 1500 5250
 Wire Wire Line
-	9125 4350 9700 4350
-Text Label 9125 4250 0    60   ~ 0
+	925  5150 1500 5150
+Text Label 925  5250 0    60   ~ 0
 LCD_DATA2
-Text Label 9125 4350 0    60   ~ 0
+Text Label 925  5150 0    60   ~ 0
 LCD_DATA3
 Wire Wire Line
-	9125 4450 9700 4450
+	925  5050 1500 5050
 Wire Wire Line
-	9125 4550 9700 4550
-Text Label 9125 4450 0    60   ~ 0
+	925  4950 1500 4950
+Text Label 925  5050 0    60   ~ 0
 LCD_DATA4
-Text Label 9125 4550 0    60   ~ 0
+Text Label 925  4950 0    60   ~ 0
 LCD_DATA5
 Wire Wire Line
-	9125 4650 9700 4650
+	925  4850 1500 4850
 Wire Wire Line
-	9125 4750 9700 4750
-Text Label 9125 4650 0    60   ~ 0
+	925  4750 1500 4750
+Text Label 925  4850 0    60   ~ 0
 LCD_DATA6
-Text Label 9125 4750 0    60   ~ 0
+Text Label 925  4750 0    60   ~ 0
 LCD_DATA7
 Wire Wire Line
-	9125 4850 9700 4850
+	925  4650 1500 4650
 Wire Wire Line
-	9125 4950 9700 4950
-Text Label 9125 4850 0    60   ~ 0
+	925  4550 1500 4550
+Text Label 925  4650 0    60   ~ 0
 LCD_DATA8
-Text Label 9125 4950 0    60   ~ 0
+Text Label 925  4550 0    60   ~ 0
 LCD_DATA9
 Wire Wire Line
-	9125 5050 9700 5050
+	925  4450 1500 4450
 Wire Wire Line
-	9125 5150 9700 5150
-Text Label 9125 5050 0    60   ~ 0
+	925  4350 1500 4350
+Text Label 925  4450 0    60   ~ 0
 LCD_DATA10
-Text Label 9125 5150 0    60   ~ 0
+Text Label 925  4350 0    60   ~ 0
 LCD_DATA11
 Wire Wire Line
-	9125 5250 9700 5250
+	925  4250 1500 4250
 Wire Wire Line
-	9125 5350 9700 5350
-Text Label 9125 5250 0    60   ~ 0
+	925  4150 1500 4150
+Text Label 925  4250 0    60   ~ 0
 LCD_DATA12
-Text Label 9125 5350 0    60   ~ 0
+Text Label 925  4150 0    60   ~ 0
 LCD_DATA13
 Wire Wire Line
-	9125 5450 9700 5450
+	925  4050 1500 4050
 Wire Wire Line
-	9125 5550 9700 5550
-Text Label 9125 5450 0    60   ~ 0
+	925  3950 1500 3950
+Text Label 925  4050 0    60   ~ 0
 LCD_DATA14
-Text Label 9125 5550 0    60   ~ 0
+Text Label 925  3950 0    60   ~ 0
 LCD_DATA15
 $Comp
 L GNDD #PWR015
 U 1 1 58E81FDD
-P 9175 3950
-F 0 "#PWR015" H 9175 3700 50  0001 C CNN
-F 1 "GNDD" V 9175 3725 50  0000 C CNN
-F 2 "" H 9175 3950 50  0001 C CNN
-F 3 "" H 9175 3950 50  0001 C CNN
-	1    9175 3950
+P 9175 3550
+F 0 "#PWR015" H 9175 3300 50  0001 C CNN
+F 1 "GNDD" V 9175 3325 50  0000 C CNN
+F 2 "" H 9175 3550 50  0001 C CNN
+F 3 "" H 9175 3550 50  0001 C CNN
+	1    9175 3550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9175 3950 9700 3950
+	9175 3550 9700 3550
 Text Label 6300 5900 2    60   ~ 0
 SPI1_CLK
 Text Label 6300 6000 2    60   ~ 0
