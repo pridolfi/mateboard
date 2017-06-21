@@ -1,4 +1,4 @@
-update=Wed 29 Mar 2017 05:46:55 PM ART
+update=Fri 19 May 2017 03:26:27 PM ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=doc/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=schlib
@@ -83,3 +73,13 @@ LibName41=schlib/tps2065cdgn
 LibName42=schlib/74lvc1g07dck
 LibName43=schlib/wl1835modgbmoct
 LibName44=schlib/osd335x
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=doc/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1

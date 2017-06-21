@@ -44,18 +44,18 @@ LIBS:74lvc1g07dck
 LIBS:wl1835modgbmoct
 LIBS:osd335x
 LIBS:mateboard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Title "Mateboard"
+Date "2017-06-21"
+Rev "1.00"
+Comp "DPLab@UTN-FRBA"
+Comment1 "Director: Alejandro Furfaro"
+Comment2 "Revisor: Nicolás Dassieu Blanchet"
+Comment3 "Autor: Pablo Ridolfi"
 Comment4 ""
 $EndDescr
 $Sheet
@@ -159,7 +159,7 @@ Text Label 6300 800  2    60   ~ 0
 SYS_RESETn
 Wire Wire Line
 	5725 800  6300 800 
-Text Notes 7000 7025 0    60   ~ 0
+Text Notes 7750 925  0    60   ~ 0
 References:\nhttp://processors.wiki.ti.com/index.php/AM335x_Hardware_Design_Guide\nhttp://processors.wiki.ti.com/index.php/AM335x_Schematic_Checklist\nhttps://github.com/beagleboard/beaglebone-black-wireless
 Wire Wire Line
 	2600 850  2000 850 

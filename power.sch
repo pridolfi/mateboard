@@ -44,18 +44,18 @@ LIBS:74lvc1g07dck
 LIBS:wl1835modgbmoct
 LIBS:osd335x
 LIBS:mateboard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Title "Mateboard"
+Date "2017-06-21"
+Rev "1.00"
+Comp "DPLab@UTN-FRBA"
+Comment1 "Director: Alejandro Furfaro"
+Comment2 "Revisor: Nicolás Dassieu Blanchet"
+Comment3 "Autor: Pablo Ridolfi"
 Comment4 ""
 $EndDescr
 $Comp
@@ -421,7 +421,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 2825 4050 2825
 Wire Wire Line
-	7100 2225 6450 2225
+	8100 2225 6450 2225
 Connection ~ 6550 1725
 Wire Wire Line
 	6550 1925 6550 1725
@@ -1059,12 +1059,12 @@ $EndComp
 $Comp
 L TEST_1P J19
 U 1 1 5906996C
-P 7100 2225
-F 0 "J19" V 7050 2275 50  0000 C CNN
-F 1 "VDD_3V3AUX" V 7100 2625 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7300 2225 50  0001 C CNN
-F 3 "" H 7300 2225 50  0001 C CNN
-	1    7100 2225
+P 8100 2225
+F 0 "J19" V 8050 2275 50  0000 C CNN
+F 1 "VDD_3V3AUX" V 8100 2625 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8300 2225 50  0001 C CNN
+F 3 "" H 8300 2225 50  0001 C CNN
+	1    8100 2225
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1301,4 +1301,40 @@ F 3 "" H 10000 5600 50  0001 C CNN
 	1    10000 5600
 	-1   0    0    1   
 $EndComp
+$Comp
+L LED D7
+U 1 1 594BBB6F
+P 8000 2700
+F 0 "D7" V 8050 2575 50  0000 C CNN
+F 1 "LTST-C191TBKT" V 7975 2325 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 8000 2700 50  0001 C CNN
+F 3 "" H 8000 2700 50  0000 C CNN
+	1    8000 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R93
+U 1 1 594BBB76
+P 8000 2400
+F 0 "R93" H 8125 2425 50  0000 C CNN
+F 1 "4.75k" H 8175 2350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 7930 2400 50  0001 C CNN
+F 3 "" H 8000 2400 50  0000 C CNN
+	1    8000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR073
+U 1 1 594BC0DD
+P 8000 2850
+F 0 "#PWR073" H 8000 2600 50  0001 C CNN
+F 1 "GNDD" H 8000 2700 50  0000 C CNN
+F 2 "" H 8000 2850 50  0000 C CNN
+F 3 "" H 8000 2850 50  0000 C CNN
+	1    8000 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2250 8000 2225
+Connection ~ 8000 2225
 $EndSCHEMATC
