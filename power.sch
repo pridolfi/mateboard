@@ -50,7 +50,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title "Mateboard"
-Date "2017-06-21"
+Date "2017-06-23"
 Rev "1.00"
 Comp "DPLab@UTN-FRBA"
 Comment1 "Director: Alejandro Furfaro"
@@ -381,19 +381,6 @@ F 3 "" H 2275 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OSD335x-RESCUE-mateboard IC1
-U 3 1 58DB60E7
-P 5250 3025
-AR Path="/58DB60E7" Ref="IC1"  Part="3" 
-AR Path="/589A190D/58DB60E7" Ref="IC1"  Part="3" 
-F 0 "IC1" H 5175 3050 45  0000 L BNN
-F 1 "OSD335x" H 5100 2950 45  0000 L BNN
-F 2 "footprints:OSD3358-BAS-BGA400" H 5280 3175 20  0001 C CNN
-F 3 "" H 5250 3025 60  0001 C CNN
-	3    5250 3025
-	1    0    0    -1  
-$EndComp
-$Comp
 L VDD_3V3B #PWR050
 U 1 1 58DBD053
 P 7100 1725
@@ -599,7 +586,7 @@ NoConn ~ 6450 4425
 NoConn ~ 6450 4925
 NoConn ~ 6450 5125
 $Comp
-L OSD335x-RESCUE-mateboard IC1
+L OSD335x IC1
 U 4 1 58DC3495
 P 9650 3325
 AR Path="/58DC3495" Ref="IC1"  Part="4" 
@@ -1337,4 +1324,19 @@ $EndComp
 Wire Wire Line
 	8000 2250 8000 2225
 Connection ~ 8000 2225
+Text Label 7350 2225 0    60   ~ 0
+VDD_3V3AUX
+$Comp
+L OSD335x IC1
+U 3 1 594B7B3B
+P 5250 3025
+AR Path="/594B7B3B" Ref="IC1"  Part="3" 
+AR Path="/589A190D/594B7B3B" Ref="IC1"  Part="3" 
+F 0 "IC1" H 5250 5379 45  0000 C CNN
+F 1 "OSD335x" H 5250 5295 45  0000 C CNN
+F 2 "GHI-SoMs-Processors_OSD3358" H 5280 3175 20  0001 C CNN
+F 3 "" H 5250 3025 60  0001 C CNN
+	3    5250 3025
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
