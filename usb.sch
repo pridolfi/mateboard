@@ -59,9 +59,9 @@ Comment3 "Autor: Pablo Ridolfi"
 Comment4 ""
 $EndDescr
 Text HLabel 3550 4400 0    60   BiDi ~ 0
-USB0_DP
+USB0_D+
 Text HLabel 3550 4500 0    60   BiDi ~ 0
-USB0_DM
+USB0_D-
 Text HLabel 3550 4700 0    60   BiDi ~ 0
 USB0_ID
 $Comp
@@ -109,9 +109,9 @@ F 3 "" H 5625 5600 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 Text HLabel 3550 5100 0    60   BiDi ~ 0
-USB1_DP
+USB1_D+
 Text HLabel 3550 5200 0    60   BiDi ~ 0
-USB1_DM
+USB1_D-
 $Comp
 L TPS2065CDGN U5
 U 1 1 58ACBDB9
