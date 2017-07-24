@@ -1,266 +1,271 @@
 Source:,/home/pablo/work/mateboard/pcb/mateboard.sch
-Date:,Wed 21 Jun 2017 03:48:34 PM ART
-Tool:,Eeschema no-vcs-found-70226ec~58~ubuntu16.04.1
-Component Count:,186
+Date:,Mon 24 Jul 2017 04:03:04 PM ART
+Tool:,Eeschema no-vcs-found-f042fcd~59~ubuntu16.04.1
+Component Count:,190
 
 Individual Components:
 
-Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
-,,AE1,2.4GHz Antenna,device:Antenna,footprints:2450AT43B100E,
-,,C1,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,
-,,C10,10uF/6.3V,device:C,Capacitors_SMD:C_0603,
-,,C11,10uF/6.3V,device:C,Capacitors_SMD:C_0603,
-,,C12,100nF/6.3V,device:C,Capacitors_SMD:C_0402,
-,,C13,220uF/6.3V,device:CP,Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow,
-,,C16,18pF/50V,device:C,Capacitors_SMD:C_0402,
-,,C17,18pF/50V,device:C,Capacitors_SMD:C_0402,
-,,C18,18pF/50V,device:C,Capacitors_SMD:C_0402,
-,,C19,18pF/50V,device:C,Capacitors_SMD:C_0402,
-,,C2,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,
-,,C20,100nF/6.3V,device:C,Capacitors_SMD:C_0402,
-,,C21,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,
-,,C22,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,
-,,C23,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,
-,,C24,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,
-,,C25,4.7uF/6.3V,device:C,Capacitors_SMD:C_0805,
-,,C26,100nF/6.3V,device:C,Capacitors_SMD:C_0402,
-,,C27,100nF/6.3V,device:C,Capacitors_SMD:C_0402,
-,,C28,100nF/6.3V,device:C,Capacitors_SMD:C_0402,
-,,C29,100nF/6.3V,device:C,Capacitors_SMD:C_0402,
-,,C3,10uF/6.3V,device:C,Capacitors_SMD:C_0603,
-,,C30,100nF/6.3V,device:C,Capacitors_SMD:C_0402,
-,,C31,100nF/6.3V,device:C,Capacitors_SMD:C_0402,
-,,C32,100nF/6.3V,device:C,Capacitors_SMD:C_0402,
-,,C33,100nF/6.3V,device:C,Capacitors_SMD:C_0402,
-,,C34,10pF,device:C,Capacitors_SMD:C_0402,
-,,C35,10pF,device:C,Capacitors_SMD:C_0402,
-,,C36,10pF,device:C,Capacitors_SMD:C_0402,
-,,C37,10uF/6.3V,device:C,Capacitors_SMD:C_0603,
-,,C38,1uF/6.3V,device:C,Capacitors_SMD:C_0402,
-,,C39,100nF/6.3V,device:C,Capacitors_SMD:C_0402,
-,,C4,100nF/6.3V,device:C,Capacitors_SMD:C_0402,
-,,C40,DNP 47uF,device:CP,Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow,
-,,C5,100nF/6.3V,device:C,Capacitors_SMD:C_0402,
-,,C6,10uF/6.3V,device:C,Capacitors_SMD:C_0603,
-,,C7,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,
-,,C8,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,
-,,C9,10uF/6.3V,device:C,Capacitors_SMD:C_0603,
-,,D1,STPS140A,device:D,Diodes_SMD:D_SMA_Standard,
-,,D2,STPS140A,device:D,Diodes_SMD:D_SMA_Standard,
-,,D3,STPS140A,device:D,Diodes_SMD:D_SMA_Standard,
-,,D4,BAT54C,opendous:BAT54C,TO_SOT_Packages_SMD:SOT-23,
-,,D5,LTST-C191TBKT,device:LED,LEDs:LED_0603,
-,,D6,LTST-C191TBKT,device:LED,LEDs:LED_0603,
-,,D7,LTST-C191TBKT,device:LED,LEDs:LED_0603,
-,,IC1,OSD335x,mateboard-cache:OSD335x-RESCUE-mateboard,footprints:OSD3358-BAS-BGA400,
-,,IC2,SN74LVC2G241DCUR,opendous:LOGIC-2G125_Dual_3ST_NonInv_Buffer,Housings_SSOP:VSSOP-8_2.3x2mm_Pitch0.5mm,
-,,IC3,NAND_4GB,nand_4gb:NAND_4GB,footprints:WFBGA153,
-,,IC4,WL1835MODGBMOCT,wl1835modgbmoct:WL1835MODGBMOCT,bbblue:BeagleBone_Blue-GHI-IC_MOC-100(TI),
-,,J1,IO1,conn:CONN_02X35,footprints:DF40C-70DP-0.4V_51_,
-,,J10,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,J11,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,J12,ANT2,conn:CONN_COAXIAL,footprints:BeagleBone_Blue-GHI-CONNECTORS_U.FL-R-SMT-1,
-,,J13,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,J14,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,J15,VDDS_PLL,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,J16,VDDS_DDR,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,J17,VDD_MPU,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,J18,VDD_CORE,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,J19,VDD_3V3AUX,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,J2,IO2,conn:CONN_02X35,footprints:DF40C-70DP-0.4V_51_,
-,,J20,VDD_RTC,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,J3,GS2,conn:GS2,Connectors:GS2,
-,,J4,ANT2,conn:CONN_COAXIAL,footprints:BeagleBone_Blue-GHI-CONNECTORS_U.FL-R-SMT-1,
-,,J5,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,J6,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,J7,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,J8,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,J9,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-,,L1,BLM21AG221SN1D,device:L_Core_Ferrite,Resistors_SMD:R_0805,
-,,L2,150ohm 1000mA,device:L,Resistors_SMD:R_0805,
-,,L3,0.1ohm 0805,device:L,Resistors_SMD:R_0805,
-,,L4,BLM15AG102SN1D,device:L,Resistors_SMD:R_0402,
-,,L5,BLM15AG102SN1D,device:L,Resistors_SMD:R_0402,
-,,Q1,BSS138,mateboard-rescue:BSS138-RESCUE-mateboard,TO_SOT_Packages_SMD:SOT-23,
-,,Q2,BSS138,mateboard-rescue:BSS138-RESCUE-mateboard,TO_SOT_Packages_SMD:SOT-23,
-,,Q3,MMBT2907,device:Q_PNP_BEC,TO_SOT_Packages_SMD:SOT-23,
-,,Q4,MMBT2907,device:Q_PNP_BEC,TO_SOT_Packages_SMD:SOT-23,
-,,R1,1M,device:R,Resistors_SMD:R_0402,
-,,R10,0R,device:R,Resistors_SMD:R_0402,
-,,R11,0,device:R,Resistors_SMD:R_0402,
-,,R12,0,device:R,Resistors_SMD:R_0402,
-,,R13,100k,device:R,Resistors_SMD:R_0402,
-,,R14,100k,device:R,Resistors_SMD:R_0402,
-,,R15,100k,device:R,Resistors_SMD:R_0402,
-,,R16,100k,device:R,Resistors_SMD:R_0402,
-,,R17,100k,device:R,Resistors_SMD:R_0402,
-,,R18,100k,device:R,Resistors_SMD:R_0402,
-,,R19,100k,device:R,Resistors_SMD:R_0402,
-,,R2,1k,device:R,Resistors_SMD:R_0402,
-,,R20,100k,device:R,Resistors_SMD:R_0402,
-,,R21,100k,device:R,Resistors_SMD:R_0402,
-,,R22,100k,device:R,Resistors_SMD:R_0402,
-,,R23,100k,device:R,Resistors_SMD:R_0402,
-,,R24,100k,device:R,Resistors_SMD:R_0402,
-,,R25,100k,device:R,Resistors_SMD:R_0402,
-,,R26,100k,device:R,Resistors_SMD:R_0402,
-,,R27,100k,device:R,Resistors_SMD:R_0402,
-,,R28,100k,device:R,Resistors_SMD:R_0402,
-,,R29,100,device:R,Resistors_SMD:R_0402,
-,,R3,1.5k,device:R,Resistors_SMD:R_0402,
-,,R30,10k 1%,device:R,Resistors_SMD:R_0402,
-,,R31,1M,device:R,Resistors_SMD:R_0402,
-,,R32,DNP 1M,device:R,Resistors_SMD:R_0402,
-,,R33,0 1%,device:R,Resistors_SMD:R_0402,
-,,R34,0R,device:R,Resistors_SMD:R_0402,
-,,R35,10k,device:R,Resistors_SMD:R_0402,
-,,R36,10k,device:R,Resistors_SMD:R_0402,
-,,R37,10k,device:R,Resistors_SMD:R_0402,
-,,R38,10k,device:R,Resistors_SMD:R_0402,
-,,R39,10k,device:R,Resistors_SMD:R_0402,
-,,R4,1.5k,device:R,Resistors_SMD:R_0402,
-,,R40,10k,device:R,Resistors_SMD:R_0402,
-,,R41,10k,device:R,Resistors_SMD:R_0402,
-,,R42,10k,device:R,Resistors_SMD:R_0402,
-,,R43,0R,device:R,Resistors_SMD:R_0402,
-,,R44,10k,device:R,Resistors_SMD:R_0402,
-,,R45,10k,device:R,Resistors_SMD:R_0402,
-,,R46,10k,device:R,Resistors_SMD:R_0402,
-,,R47,10k,device:R,Resistors_SMD:R_0402,
-,,R48,10k,device:R,Resistors_SMD:R_0402,
-,,R49,10k,device:R,Resistors_SMD:R_0402,
-,,R5,10k,device:R,Resistors_SMD:R_0402,
-,,R50,10k,device:R,Resistors_SMD:R_0402,
-,,R51,DNP 0R,device:R,Resistors_SMD:R_0402,
-,,R52,10k,device:R,Resistors_SMD:R_0402,
-,,R53,10k,device:R,Resistors_SMD:R_0402,
-,,R54,10k,device:R,Resistors_SMD:R_0402,
-,,R55,33,device:R,Resistors_SMD:R_0402,
-,,R56,150k,device:R,Resistors_SMD:R_0402,
-,,R57,150k,device:R,Resistors_SMD:R_0402,
-,,R58,1.5k,device:R,Resistors_SMD:R_0402,
-,,R59,DNP 1k,device:R,Resistors_SMD:R_0402,
-,,R6,10k,device:R,Resistors_SMD:R_0402,
-,,R60,33,device:R,Resistors_SMD:R_0402,
-,,R61,33,device:R,Resistors_SMD:R_0402,
-,,R62,33,device:R,Resistors_SMD:R_0402,
-,,R63,33,device:R,Resistors_SMD:R_0402,
-,,R64,33,device:R,Resistors_SMD:R_0402,
-,,R65,33,device:R,Resistors_SMD:R_0402,
-,,R66,DNP 1k,device:R,Resistors_SMD:R_0402,
-,,R67,33,device:R,Resistors_SMD:R_0402,
-,,R68,33,device:R,Resistors_SMD:R_0402,
-,,R69,33,device:R,Resistors_SMD:R_0402,
-,,R7,100k,device:R,Resistors_SMD:R_0402,
-,,R70,DNP 10k,device:R,Resistors_SMD:R_0402,
-,,R71,33,device:R,Resistors_SMD:R_0402,
-,,R72,33,device:R,Resistors_SMD:R_0402,
-,,R73,33,device:R,Resistors_SMD:R_0402,
-,,R74,33,device:R,Resistors_SMD:R_0402,
-,,R75,33,device:R,Resistors_SMD:R_0402,
-,,R76,33,device:R,Resistors_SMD:R_0402,
-,,R77,33,device:R,Resistors_SMD:R_0402,
-,,R78,1k,device:R,Resistors_SMD:R_0402,
-,,R79,33,device:R,Resistors_SMD:R_0402,
-,,R8,10k,device:R,Resistors_SMD:R_0402,
-,,R80,33,device:R,Resistors_SMD:R_0402,
-,,R81,33,device:R,Resistors_SMD:R_0402,
-,,R82,33,device:R,Resistors_SMD:R_0402,
-,,R83,1k,device:R,Resistors_SMD:R_0402,
-,,R84,1k,device:R,Resistors_SMD:R_0402,
-,,R85,499,device:R,Resistors_SMD:R_0402,
-,,R86,DNP,device:R,Resistors_SMD:R_0402,
-,,R87,10k,device:R,Resistors_SMD:R_0402,
-,,R88,40.2k,device:R,Resistors_SMD:R_0402,
-,,R89,499,device:R,Resistors_SMD:R_0402,
-,,R9,0R,device:R,Resistors_SMD:R_0402,
-,,R90,DNP,device:R,Resistors_SMD:R_0402,
-,,R91,10k,device:R,Resistors_SMD:R_0402,
-,,R92,40.2k,device:R,Resistors_SMD:R_0402,
-,,R93,4.75k,device:R,Resistors_SMD:R_0402,
-,,U1,AP2112K-3.3TRG1,regul:LT1761-SD,TO_SOT_Packages_SMD:TSOT-23-5,
-,,U10,TXS0108,opendous:TXB0108,Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm,
-,,U11,TXS0108,opendous:TXB0108,Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm,
-,,U12,TLVH431,opendous:TLV431,TO_SOT_Packages_SMD:SOT-23,
-,,U13,TLVH431,opendous:TLV431,TO_SOT_Packages_SMD:SOT-23,
-,,U2,AP2112K-1.8TRG1,regul:LT1761-SD,TO_SOT_Packages_SMD:TSOT-23-5,
-,,U3,TL1963A-33DCQR,tl1963adcqr:TL1963ADCQR,footprints:SOT-223-6,
-,,U4,24LC32AT-I,memory:AT24CS32-STUM,TO_SOT_Packages_SMD:SOT-23-5,
-,,U5,TPS2065CDGN,tps2065cdgn:TPS2065CDGN,Housings_SSOP:VSSOP-8_2.3x2mm_Pitch0.5mm,
-,,U8,SN74LVC1G06DCK,74xx:74AHC1G14,TO_SOT_Packages_SMD:SOT-353_SC-70-5,
-,,U9,74LVC1G07DCK,74lvc1g07dck:74LVC1G07DCK,TO_SOT_Packages_SMD:SOT-353_SC-70-5,
-,,X1,NZ2520SB-32.768KHZ-NSA3534C,opendous:OSCILLATOR,Crystals:Crystal_SMD_2520-4pin_2.5x2.0mm,
-,,Y1,24MHz,device:Crystal,Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm,
-,,Y2,32.768kHz,device:Crystal,Crystals:Crystal_SMD_3215-2pin_3.2x1.5mm,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,manf#
+,,AE1,2.4GHz Antenna,device:Antenna,footprints:2450AT43B100E,,2450AT42A100E
+,,C1,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,,GCM188R70J225KE22D
+,,C10,10uF/6.3V,device:C,Capacitors_SMD:C_0603,,C1608X5R0J106M080AB
+,,C11,10uF/6.3V,device:C,Capacitors_SMD:C_0603,,
+,,C12,100nF/6.3V,device:C,Capacitors_SMD:C_0402,,
+,,C13,220uF/6.3V,device:CP,Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow,,TAJD227M010RNJ
+,,C16,18pF/50V,device:C,Capacitors_SMD:C_0402,,GCM1555C1H180JA16D
+,,C17,18pF/50V,device:C,Capacitors_SMD:C_0402,,
+,,C18,18pF/50V,device:C,Capacitors_SMD:C_0402,,
+,,C19,18pF/50V,device:C,Capacitors_SMD:C_0402,,
+,,C2,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,,
+,,C20,100nF/6.3V,device:C,Capacitors_SMD:C_0402,,
+,,C21,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,,
+,,C22,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,,
+,,C23,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,,
+,,C24,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,,
+,,C25,4.7uF/6.3V,device:C,Capacitors_SMD:C_0805,,08056D475KAT2A
+,,C26,100nF/6.3V,device:C,Capacitors_SMD:C_0402,,
+,,C27,100nF/6.3V,device:C,Capacitors_SMD:C_0402,,
+,,C28,100nF/6.3V,device:C,Capacitors_SMD:C_0402,,
+,,C29,100nF/6.3V,device:C,Capacitors_SMD:C_0402,,
+,,C3,10uF/6.3V,device:C,Capacitors_SMD:C_0603,,
+,,C30,100nF/6.3V,device:C,Capacitors_SMD:C_0402,,
+,,C31,100nF/6.3V,device:C,Capacitors_SMD:C_0402,,
+,,C32,100nF/6.3V,device:C,Capacitors_SMD:C_0402,,
+,,C33,100nF/6.3V,device:C,Capacitors_SMD:C_0402,,
+,,C34,10pF,device:C,Capacitors_SMD:C_0402,,GCM1555C1H100JA16D
+,,C35,10pF,device:C,Capacitors_SMD:C_0402,,
+,,C36,10pF,device:C,Capacitors_SMD:C_0402,,
+,,C37,10uF/6.3V,device:C,Capacitors_SMD:C_0603,,
+,,C38,1uF/6.3V,device:C,Capacitors_SMD:C_0402,,GRM155R60J105KE19D
+,,C39,100nF/6.3V,device:C,Capacitors_SMD:C_0402,,
+,,C4,100nF/6.3V,device:C,Capacitors_SMD:C_0402,,GRM155R60J104KA01D
+,,C40,DNP 47uF,device:CP,Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow,,
+,,C5,100nF/6.3V,device:C,Capacitors_SMD:C_0402,,
+,,C6,10uF/6.3V,device:C,Capacitors_SMD:C_0603,,
+,,C7,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,,
+,,C8,2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,,
+,,C9,10uF/6.3V,device:C,Capacitors_SMD:C_0603,,
+,,D1,STPS140A,device:D,Diodes_SMD:D_SMA_Standard,,STPS140A
+,,D2,STPS140A,device:D,Diodes_SMD:D_SMA_Standard,,
+,,D3,STPS140A,device:D,Diodes_SMD:D_SMA_Standard,,
+,,D4,BAT54C,opendous:BAT54C,TO_SOT_Packages_SMD:SOT-23,,BAT54C
+,,D5,LTST-C191TBKT,device:LED,LEDs:LED_0603,,
+,,D6,LTST-C191TBKT,device:LED,LEDs:LED_0603,,
+,,D7,LTST-C191TBKT,device:LED,LEDs:LED_0603,,LTST-C191TBKT-5A
+,,IC1,OSD335x,osd335x:OSD335x,footprints:OSD3358-BAS-BGA400,,OSD3358-512M-BAS
+,,IC2,SN74LVC2G241DCUR,opendous:LOGIC-2G125_Dual_3ST_NonInv_Buffer,Housings_SSOP:VSSOP-8_2.3x2mm_Pitch0.5mm,,SN74LVC2G241DCUR
+,,IC3,NAND_4GB,nand_4gb:NAND_4GB,footprints:BeagleBone_Blue-GHI-IC_MICRON_EMMC_153_MODIFICADO,,SDIN8DE2-4G-I
+,,IC4,WL1835MODGBMOCT,wl1835modgbmoct:WL1835MODGBMOCT,footprints:BeagleBone_Blue-GHI-IC_MOC-100(TI),,WL1835MODGBMOCR
+,,J1,IO1,conn:CONN_02X35,footprints:DF40C-70DP-0.4V_51_,,DF40C-70DP-0.4V(51)
+,,J10,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,J11,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,J12,ANT2,conn:CONN_COAXIAL,footprints:BeagleBone_Blue-GHI-CONNECTORS_U.FL-R-SMT-1,,
+,,J13,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,J14,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,J15,VDDS_PLL,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,J16,VDDS_DDR,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,J17,VDD_MPU,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,J18,VDD_CORE,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,J19,VDD_3V3AUX,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,J2,IO2,conn:CONN_02X35,footprints:DF40C-70DP-0.4V_51_,,DF40C-70DP-0.4V(51)
+,,J20,VDD_RTC,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,J3,GS2,conn:GS2,Connectors:GS2,,
+,,J4,ANT2,conn:CONN_COAXIAL,footprints:BeagleBone_Blue-GHI-CONNECTORS_U.FL-R-SMT-1,,U.FL-R-SMT-1(10)
+,,J5,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,J6,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,J7,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,J8,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,J9,TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+,,L1,BLM21AG221SN1D,device:L_Core_Ferrite,Resistors_SMD:R_0805,,BLM21AG221SN1D
+,,L2,150ohm 1000mA,device:L,Resistors_SMD:R_0805,,LI0805H151R-10
+,,L3,0.1ohm 0805,device:L,Resistors_SMD:R_0805,,73L3R10J
+,,L4,BLM15AG102SN1D,device:L,Resistors_SMD:R_0402,,BLM15AG102SN1D
+,,L5,BLM15AG102SN1D,device:L,Resistors_SMD:R_0402,,
+,,MH1,Mounting hole,conn:TEST_1P,Mounting_Holes:MountingHole_3.2mm_M3,,
+,,MH2,Mounting hole,conn:TEST_1P,Mounting_Holes:MountingHole_3.2mm_M3,,
+,,MH3,Mounting hole,conn:TEST_1P,Mounting_Holes:MountingHole_3.2mm_M3,,
+,,MH4,Mounting hole,conn:TEST_1P,Mounting_Holes:MountingHole_3.2mm_M3,,
+,,Q1,BSS138,mateboard-rescue:BSS138-RESCUE-mateboard,TO_SOT_Packages_SMD:SOT-23,,BSS138W H6327
+,,Q2,BSS138,mateboard-rescue:BSS138-RESCUE-mateboard,TO_SOT_Packages_SMD:SOT-23,,
+,,Q3,MMBT2907,device:Q_PNP_BEC,TO_SOT_Packages_SMD:SOT-23,,MMBT2907ALT1G
+,,Q4,MMBT2907,device:Q_PNP_BEC,TO_SOT_Packages_SMD:SOT-23,,
+,,R1,1M,device:R,Resistors_SMD:R_0402,,RC0402FR-071ML
+,,R10,0R,device:R,Resistors_SMD:R_0402,,RC0402JR-070RL
+,,R11,0,device:R,Resistors_SMD:R_0402,,
+,,R12,0,device:R,Resistors_SMD:R_0402,,RC0402JR-070RL
+,,R13,100k,device:R,Resistors_SMD:R_0402,,RC0402FR-07100KL
+,,R14,100k,device:R,Resistors_SMD:R_0402,,
+,,R15,100k,device:R,Resistors_SMD:R_0402,,
+,,R16,100k,device:R,Resistors_SMD:R_0402,,
+,,R17,100k,device:R,Resistors_SMD:R_0402,,
+,,R18,100k,device:R,Resistors_SMD:R_0402,,
+,,R19,100k,device:R,Resistors_SMD:R_0402,,
+,,R2,1k,device:R,Resistors_SMD:R_0402,,RC0402FR-071KL
+,,R20,100k,device:R,Resistors_SMD:R_0402,,
+,,R21,100k,device:R,Resistors_SMD:R_0402,,
+,,R22,100k,device:R,Resistors_SMD:R_0402,,
+,,R23,100k,device:R,Resistors_SMD:R_0402,,
+,,R24,100k,device:R,Resistors_SMD:R_0402,,
+,,R25,100k,device:R,Resistors_SMD:R_0402,,
+,,R26,100k,device:R,Resistors_SMD:R_0402,,
+,,R27,100k,device:R,Resistors_SMD:R_0402,,
+,,R28,100k,device:R,Resistors_SMD:R_0402,,
+,,R29,100,device:R,Resistors_SMD:R_0402,,RC0402FR-07100RL
+,,R3,1.5k,device:R,Resistors_SMD:R_0402,,RC0402FR-071K5L
+,,R30,10k 1%,device:R,Resistors_SMD:R_0402,,RC0402FR-0710KL
+,,R31,1M,device:R,Resistors_SMD:R_0402,,
+,,R32,DNP 1M,device:R,Resistors_SMD:R_0402,,
+,,R33,0 1%,device:R,Resistors_SMD:R_0402,,RC0402JR-070RL
+,,R34,0R,device:R,Resistors_SMD:R_0402,,
+,,R35,10k,device:R,Resistors_SMD:R_0402,,RC0402FR-0710KL
+,,R36,10k,device:R,Resistors_SMD:R_0402,,
+,,R37,10k,device:R,Resistors_SMD:R_0402,,
+,,R38,10k,device:R,Resistors_SMD:R_0402,,
+,,R39,10k,device:R,Resistors_SMD:R_0402,,
+,,R4,1.5k,device:R,Resistors_SMD:R_0402,,
+,,R40,10k,device:R,Resistors_SMD:R_0402,,
+,,R41,10k,device:R,Resistors_SMD:R_0402,,
+,,R42,10k,device:R,Resistors_SMD:R_0402,,
+,,R43,0R,device:R,Resistors_SMD:R_0402,,
+,,R44,10k,device:R,Resistors_SMD:R_0402,,
+,,R45,10k,device:R,Resistors_SMD:R_0402,,
+,,R46,10k,device:R,Resistors_SMD:R_0402,,
+,,R47,10k,device:R,Resistors_SMD:R_0402,,
+,,R48,10k,device:R,Resistors_SMD:R_0402,,
+,,R49,10k,device:R,Resistors_SMD:R_0402,,
+,,R5,10k,device:R,Resistors_SMD:R_0402,,
+,,R50,10k,device:R,Resistors_SMD:R_0402,,
+,,R51,DNP 0R,device:R,Resistors_SMD:R_0402,,
+,,R52,10k,device:R,Resistors_SMD:R_0402,,
+,,R53,10k,device:R,Resistors_SMD:R_0402,,
+,,R54,10k,device:R,Resistors_SMD:R_0402,,
+,,R55,33,device:R,Resistors_SMD:R_0402,,RC0402JR-0733RL
+,,R56,150k,device:R,Resistors_SMD:R_0402,,RC0402FR-07150KL
+,,R57,150k,device:R,Resistors_SMD:R_0402,,
+,,R58,1.5k,device:R,Resistors_SMD:R_0402,,
+,,R59,DNP 1k,device:R,Resistors_SMD:R_0402,,
+,,R6,10k,device:R,Resistors_SMD:R_0402,,
+,,R60,33,device:R,Resistors_SMD:R_0402,,
+,,R61,33,device:R,Resistors_SMD:R_0402,,
+,,R62,33,device:R,Resistors_SMD:R_0402,,
+,,R63,33,device:R,Resistors_SMD:R_0402,,
+,,R64,33,device:R,Resistors_SMD:R_0402,,
+,,R65,33,device:R,Resistors_SMD:R_0402,,
+,,R66,DNP 1k,device:R,Resistors_SMD:R_0402,,
+,,R67,33,device:R,Resistors_SMD:R_0402,,
+,,R68,33,device:R,Resistors_SMD:R_0402,,
+,,R69,33,device:R,Resistors_SMD:R_0402,,
+,,R7,100k,device:R,Resistors_SMD:R_0402,,
+,,R70,DNP 10k,device:R,Resistors_SMD:R_0402,,
+,,R71,33,device:R,Resistors_SMD:R_0402,,
+,,R72,33,device:R,Resistors_SMD:R_0402,,
+,,R73,33,device:R,Resistors_SMD:R_0402,,
+,,R74,33,device:R,Resistors_SMD:R_0402,,
+,,R75,33,device:R,Resistors_SMD:R_0402,,
+,,R76,33,device:R,Resistors_SMD:R_0402,,
+,,R77,33,device:R,Resistors_SMD:R_0402,,
+,,R78,1k,device:R,Resistors_SMD:R_0402,,
+,,R79,33,device:R,Resistors_SMD:R_0402,,
+,,R8,10k,device:R,Resistors_SMD:R_0402,,
+,,R80,33,device:R,Resistors_SMD:R_0402,,
+,,R81,33,device:R,Resistors_SMD:R_0402,,
+,,R82,33,device:R,Resistors_SMD:R_0402,,
+,,R83,1k,device:R,Resistors_SMD:R_0402,,
+,,R84,1k,device:R,Resistors_SMD:R_0402,,
+,,R85,499,device:R,Resistors_SMD:R_0402,,RC0402FR-07499RL
+,,R86,DNP,device:R,Resistors_SMD:R_0402,,
+,,R87,10k,device:R,Resistors_SMD:R_0402,,
+,,R88,40.2k,device:R,Resistors_SMD:R_0402,,RC0402FR-0740K2L
+,,R89,499,device:R,Resistors_SMD:R_0402,,
+,,R9,0R,device:R,Resistors_SMD:R_0402,,
+,,R90,DNP,device:R,Resistors_SMD:R_0402,,
+,,R91,10k,device:R,Resistors_SMD:R_0402,,
+,,R92,40.2k,device:R,Resistors_SMD:R_0402,,
+,,R93,4.75k,device:R,Resistors_SMD:R_0402,,RC0402FR-074K75L
+,,U1,AP2112K-3.3TRG1,regul:LT1761-SD,TO_SOT_Packages_SMD:TSOT-23-5,,AP2112K-3.3TRG1
+,,U10,TXS0108,opendous:TXB0108,Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm,,TXS0108EPWR
+,,U11,TXS0108,opendous:TXB0108,Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm,,
+,,U12,TLVH431,opendous:TLV431,TO_SOT_Packages_SMD:SOT-23,,TLVH431IDBZR
+,,U13,TLVH431,opendous:TLV431,TO_SOT_Packages_SMD:SOT-23,,
+,,U2,AP2112K-1.8TRG1,regul:LT1761-SD,TO_SOT_Packages_SMD:TSOT-23-5,,AP2112K-1.8TRG1
+,,U3,TL1963A-33DCQR,tl1963adcqr:TL1963ADCQR,footprints:SOT-223-6,,TL1963A-33DCQR
+,,U4,24LC32AT-I,memory:AT24CS32-STUM,TO_SOT_Packages_SMD:SOT-23-5,,24LC32AT-I/OT
+,,U5,TPS2065CDGN,tps2065cdgn:TPS2065CDGN,Housings_SSOP:MSOP-8-1EP_3x3mm_Pitch0.65mm,,TPS2065CDGNR
+,,U8,SN74LVC1G06DCK,74xx:74AHC1G14,TO_SOT_Packages_SMD:SOT-353_SC-70-5,,SN74LVC1G06DCKR
+,,U9,74LVC1G07DCK,74lvc1g07dck:74LVC1G07DCK,TO_SOT_Packages_SMD:SOT-353_SC-70-5,,SN74LVC1G07DCKR
+,,X1,NZ2520SB-32.768KHZ-NSA3534C,opendous:OSCILLATOR,Crystals:Crystal_SMD_2520-4pin_2.5x2.0mm,,ASDK2-32.768KHz-LRT
+,,Y1,24MHz,device:Crystal,Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm,,7A-24.000MAAJ-T
+,,Y2,32.768kHz,device:Crystal,Crystals:Crystal_SMD_3215-2pin_3.2x1.5mm,,ABS07-32.768KHZ-7-T
 
 
 
 Collated Components:
 
-Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
-1,1,AE1,2.4GHz Antenna,device:Antenna,footprints:2450AT43B100E,
-2,8,"C1, C2, C21, C22, C23, C24, C7, C8",2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,
-3,6,"C10, C11, C3, C37, C6, C9",10uF/6.3V,device:C,Capacitors_SMD:C_0603,
-4,13,"C12, C20, C26, C27, C28, C29, C30, C31, C32, C33, C39, C4, C5",100nF/6.3V,device:C,Capacitors_SMD:C_0402,
-5,1,C13,220uF/6.3V,device:CP,Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow,
-6,4,"C16, C17, C18, C19",18pF/50V,device:C,Capacitors_SMD:C_0402,
-7,1,C25,4.7uF/6.3V,device:C,Capacitors_SMD:C_0805,
-8,3,"C34, C35, C36",10pF,device:C,Capacitors_SMD:C_0402,
-9,1,C38,1uF/6.3V,device:C,Capacitors_SMD:C_0402,
-10,1,C40,DNP 47uF,device:CP,Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow,
-11,3,"D1, D2, D3",STPS140A,device:D,Diodes_SMD:D_SMA_Standard,
-12,1,D4,BAT54C,opendous:BAT54C,TO_SOT_Packages_SMD:SOT-23,
-13,3,"D5, D6, D7",LTST-C191TBKT,device:LED,LEDs:LED_0603,
-14,1,IC1,OSD335x,mateboard-cache:OSD335x-RESCUE-mateboard,footprints:OSD3358-BAS-BGA400,
-15,1,IC2,SN74LVC2G241DCUR,opendous:LOGIC-2G125_Dual_3ST_NonInv_Buffer,Housings_SSOP:VSSOP-8_2.3x2mm_Pitch0.5mm,
-16,1,IC3,NAND_4GB,nand_4gb:NAND_4GB,footprints:WFBGA153,
-17,1,IC4,WL1835MODGBMOCT,wl1835modgbmoct:WL1835MODGBMOCT,bbblue:BeagleBone_Blue-GHI-IC_MOC-100(TI),
-18,1,J1,IO1,conn:CONN_02X35,footprints:DF40C-70DP-0.4V_51_,
-19,9,"J10, J11, J13, J14, J5, J6, J7, J8, J9",TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-20,2,"J12, J4",ANT2,conn:CONN_COAXIAL,footprints:BeagleBone_Blue-GHI-CONNECTORS_U.FL-R-SMT-1,
-21,1,J15,VDDS_PLL,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-22,1,J16,VDDS_DDR,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-23,1,J17,VDD_MPU,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-24,1,J18,VDD_CORE,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-25,1,J19,VDD_3V3AUX,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-26,1,J2,IO2,conn:CONN_02X35,footprints:DF40C-70DP-0.4V_51_,
-27,1,J20,VDD_RTC,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
-28,1,J3,GS2,conn:GS2,Connectors:GS2,
-29,1,L1,BLM21AG221SN1D,device:L_Core_Ferrite,Resistors_SMD:R_0805,
-30,1,L2,150ohm 1000mA,device:L,Resistors_SMD:R_0805,
-31,1,L3,0.1ohm 0805,device:L,Resistors_SMD:R_0805,
-32,2,"L4, L5",BLM15AG102SN1D,device:L,Resistors_SMD:R_0402,
-33,2,"Q1, Q2",BSS138,mateboard-rescue:BSS138-RESCUE-mateboard,TO_SOT_Packages_SMD:SOT-23,
-34,2,"Q3, Q4",MMBT2907,device:Q_PNP_BEC,TO_SOT_Packages_SMD:SOT-23,
-35,2,"R1, R31",1M,device:R,Resistors_SMD:R_0402,
-36,4,"R10, R34, R43, R9",0R,device:R,Resistors_SMD:R_0402,
-37,2,"R11, R12",0,device:R,Resistors_SMD:R_0402,
-38,17,"R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R7",100k,device:R,Resistors_SMD:R_0402,
-39,4,"R2, R78, R83, R84",1k,device:R,Resistors_SMD:R_0402,
-40,1,R29,100,device:R,Resistors_SMD:R_0402,
-41,3,"R3, R4, R58",1.5k,device:R,Resistors_SMD:R_0402,
-42,1,R30,10k 1%,device:R,Resistors_SMD:R_0402,
-43,1,R32,DNP 1M,device:R,Resistors_SMD:R_0402,
-44,1,R33,0 1%,device:R,Resistors_SMD:R_0402,
-45,23,"R35, R36, R37, R38, R39, R40, R41, R42, R44, R45, R46, R47, R48, R49, R5, R50, R52, R53, R54, R6, R8, R87, R91",10k,device:R,Resistors_SMD:R_0402,
-46,1,R51,DNP 0R,device:R,Resistors_SMD:R_0402,
-47,21,"R55, R60, R61, R62, R63, R64, R65, R67, R68, R69, R71, R72, R73, R74, R75, R76, R77, R79, R80, R81, R82",33,device:R,Resistors_SMD:R_0402,
-48,2,"R56, R57",150k,device:R,Resistors_SMD:R_0402,
-49,2,"R59, R66",DNP 1k,device:R,Resistors_SMD:R_0402,
-50,1,R70,DNP 10k,device:R,Resistors_SMD:R_0402,
-51,2,"R85, R89",499,device:R,Resistors_SMD:R_0402,
-52,2,"R86, R90",DNP,device:R,Resistors_SMD:R_0402,
-53,2,"R88, R92",40.2k,device:R,Resistors_SMD:R_0402,
-54,1,R93,4.75k,device:R,Resistors_SMD:R_0402,
-55,1,U1,AP2112K-3.3TRG1,regul:LT1761-SD,TO_SOT_Packages_SMD:TSOT-23-5,
-56,2,"U10, U11",TXS0108,opendous:TXB0108,Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm,
-57,2,"U12, U13",TLVH431,opendous:TLV431,TO_SOT_Packages_SMD:SOT-23,
-58,1,U2,AP2112K-1.8TRG1,regul:LT1761-SD,TO_SOT_Packages_SMD:TSOT-23-5,
-59,1,U3,TL1963A-33DCQR,tl1963adcqr:TL1963ADCQR,footprints:SOT-223-6,
-60,1,U4,24LC32AT-I,memory:AT24CS32-STUM,TO_SOT_Packages_SMD:SOT-23-5,
-61,1,U5,TPS2065CDGN,tps2065cdgn:TPS2065CDGN,Housings_SSOP:VSSOP-8_2.3x2mm_Pitch0.5mm,
-62,1,U8,SN74LVC1G06DCK,74xx:74AHC1G14,TO_SOT_Packages_SMD:SOT-353_SC-70-5,
-63,1,U9,74LVC1G07DCK,74lvc1g07dck:74LVC1G07DCK,TO_SOT_Packages_SMD:SOT-353_SC-70-5,
-64,1,X1,NZ2520SB-32.768KHZ-NSA3534C,opendous:OSCILLATOR,Crystals:Crystal_SMD_2520-4pin_2.5x2.0mm,
-65,1,Y1,24MHz,device:Crystal,Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm,
-66,1,Y2,32.768kHz,device:Crystal,Crystals:Crystal_SMD_3215-2pin_3.2x1.5mm,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,manf#
+1,1,AE1,2.4GHz Antenna,device:Antenna,footprints:2450AT43B100E,,2450AT42A100E
+2,8,"C1, C2, C21, C22, C23, C24, C7, C8",2.2uF/6.3V,device:C,Capacitors_SMD:C_0603,,GCM188R70J225KE22D
+3,6,"C10, C11, C3, C37, C6, C9",10uF/6.3V,device:C,Capacitors_SMD:C_0603,,C1608X5R0J106M080AB
+4,13,"C12, C20, C26, C27, C28, C29, C30, C31, C32, C33, C39, C4, C5",100nF/6.3V,device:C,Capacitors_SMD:C_0402,,GRM155R60J104KA01D
+5,1,C13,220uF/6.3V,device:CP,Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow,,TAJD227M010RNJ
+6,4,"C16, C17, C18, C19",18pF/50V,device:C,Capacitors_SMD:C_0402,,GCM1555C1H180JA16D
+7,1,C25,4.7uF/6.3V,device:C,Capacitors_SMD:C_0805,,08056D475KAT2A
+8,3,"C34, C35, C36",10pF,device:C,Capacitors_SMD:C_0402,,GCM1555C1H100JA16D
+9,1,C38,1uF/6.3V,device:C,Capacitors_SMD:C_0402,,GRM155R60J105KE19D
+10,1,C40,DNP 47uF,device:CP,Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow,,
+11,3,"D1, D2, D3",STPS140A,device:D,Diodes_SMD:D_SMA_Standard,,STPS140A
+12,1,D4,BAT54C,opendous:BAT54C,TO_SOT_Packages_SMD:SOT-23,,BAT54C
+13,3,"D5, D6, D7",LTST-C191TBKT,device:LED,LEDs:LED_0603,,LTST-C191TBKT-5A
+14,1,IC1,OSD335x,osd335x:OSD335x,footprints:OSD3358-BAS-BGA400,,OSD3358-512M-BAS
+15,1,IC2,SN74LVC2G241DCUR,opendous:LOGIC-2G125_Dual_3ST_NonInv_Buffer,Housings_SSOP:VSSOP-8_2.3x2mm_Pitch0.5mm,,SN74LVC2G241DCUR
+16,1,IC3,NAND_4GB,nand_4gb:NAND_4GB,footprints:BeagleBone_Blue-GHI-IC_MICRON_EMMC_153_MODIFICADO,,SDIN8DE2-4G-I
+17,1,IC4,WL1835MODGBMOCT,wl1835modgbmoct:WL1835MODGBMOCT,footprints:BeagleBone_Blue-GHI-IC_MOC-100(TI),,WL1835MODGBMOCR
+18,1,J1,IO1,conn:CONN_02X35,footprints:DF40C-70DP-0.4V_51_,,DF40C-70DP-0.4V(51)
+19,9,"J10, J11, J13, J14, J5, J6, J7, J8, J9",TEST_1P,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+20,2,"J12, J4",ANT2,conn:CONN_COAXIAL,footprints:BeagleBone_Blue-GHI-CONNECTORS_U.FL-R-SMT-1,,U.FL-R-SMT-1(10)
+21,1,J15,VDDS_PLL,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+22,1,J16,VDDS_DDR,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+23,1,J17,VDD_MPU,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+24,1,J18,VDD_CORE,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+25,1,J19,VDD_3V3AUX,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+26,1,J2,IO2,conn:CONN_02X35,footprints:DF40C-70DP-0.4V_51_,,DF40C-70DP-0.4V(51)
+27,1,J20,VDD_RTC,conn:TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,
+28,1,J3,GS2,conn:GS2,Connectors:GS2,,
+29,1,L1,BLM21AG221SN1D,device:L_Core_Ferrite,Resistors_SMD:R_0805,,BLM21AG221SN1D
+30,1,L2,150ohm 1000mA,device:L,Resistors_SMD:R_0805,,LI0805H151R-10
+31,1,L3,0.1ohm 0805,device:L,Resistors_SMD:R_0805,,73L3R10J
+32,2,"L4, L5",BLM15AG102SN1D,device:L,Resistors_SMD:R_0402,,BLM15AG102SN1D
+33,4,"MH1, MH2, MH3, MH4",Mounting hole,conn:TEST_1P,Mounting_Holes:MountingHole_3.2mm_M3,,
+34,2,"Q1, Q2",BSS138,mateboard-rescue:BSS138-RESCUE-mateboard,TO_SOT_Packages_SMD:SOT-23,,BSS138W H6327
+35,2,"Q3, Q4",MMBT2907,device:Q_PNP_BEC,TO_SOT_Packages_SMD:SOT-23,,MMBT2907ALT1G
+36,2,"R1, R31",1M,device:R,Resistors_SMD:R_0402,,RC0402FR-071ML
+37,4,"R10, R34, R43, R9",0R,device:R,Resistors_SMD:R_0402,,RC0402JR-070RL
+38,2,"R11, R12",0,device:R,Resistors_SMD:R_0402,,RC0402JR-070RL
+39,17,"R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R7",100k,device:R,Resistors_SMD:R_0402,,RC0402FR-07100KL
+40,4,"R2, R78, R83, R84",1k,device:R,Resistors_SMD:R_0402,,RC0402FR-071KL
+41,1,R29,100,device:R,Resistors_SMD:R_0402,,RC0402FR-07100RL
+42,3,"R3, R4, R58",1.5k,device:R,Resistors_SMD:R_0402,,RC0402FR-071K5L
+43,1,R30,10k 1%,device:R,Resistors_SMD:R_0402,,RC0402FR-0710KL
+44,1,R32,DNP 1M,device:R,Resistors_SMD:R_0402,,
+45,1,R33,0 1%,device:R,Resistors_SMD:R_0402,,RC0402JR-070RL
+46,23,"R35, R36, R37, R38, R39, R40, R41, R42, R44, R45, R46, R47, R48, R49, R5, R50, R52, R53, R54, R6, R8, R87, R91",10k,device:R,Resistors_SMD:R_0402,,RC0402FR-0710KL
+47,1,R51,DNP 0R,device:R,Resistors_SMD:R_0402,,
+48,21,"R55, R60, R61, R62, R63, R64, R65, R67, R68, R69, R71, R72, R73, R74, R75, R76, R77, R79, R80, R81, R82",33,device:R,Resistors_SMD:R_0402,,RC0402JR-0733RL
+49,2,"R56, R57",150k,device:R,Resistors_SMD:R_0402,,RC0402FR-07150KL
+50,2,"R59, R66",DNP 1k,device:R,Resistors_SMD:R_0402,,
+51,1,R70,DNP 10k,device:R,Resistors_SMD:R_0402,,
+52,2,"R85, R89",499,device:R,Resistors_SMD:R_0402,,RC0402FR-07499RL
+53,2,"R86, R90",DNP,device:R,Resistors_SMD:R_0402,,
+54,2,"R88, R92",40.2k,device:R,Resistors_SMD:R_0402,,RC0402FR-0740K2L
+55,1,R93,4.75k,device:R,Resistors_SMD:R_0402,,RC0402FR-074K75L
+56,1,U1,AP2112K-3.3TRG1,regul:LT1761-SD,TO_SOT_Packages_SMD:TSOT-23-5,,AP2112K-3.3TRG1
+57,2,"U10, U11",TXS0108,opendous:TXB0108,Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm,,TXS0108EPWR
+58,2,"U12, U13",TLVH431,opendous:TLV431,TO_SOT_Packages_SMD:SOT-23,,TLVH431IDBZR
+59,1,U2,AP2112K-1.8TRG1,regul:LT1761-SD,TO_SOT_Packages_SMD:TSOT-23-5,,AP2112K-1.8TRG1
+60,1,U3,TL1963A-33DCQR,tl1963adcqr:TL1963ADCQR,footprints:SOT-223-6,,TL1963A-33DCQR
+61,1,U4,24LC32AT-I,memory:AT24CS32-STUM,TO_SOT_Packages_SMD:SOT-23-5,,24LC32AT-I/OT
+62,1,U5,TPS2065CDGN,tps2065cdgn:TPS2065CDGN,Housings_SSOP:MSOP-8-1EP_3x3mm_Pitch0.65mm,,TPS2065CDGNR
+63,1,U8,SN74LVC1G06DCK,74xx:74AHC1G14,TO_SOT_Packages_SMD:SOT-353_SC-70-5,,SN74LVC1G06DCKR
+64,1,U9,74LVC1G07DCK,74lvc1g07dck:74LVC1G07DCK,TO_SOT_Packages_SMD:SOT-353_SC-70-5,,SN74LVC1G07DCKR
+65,1,X1,NZ2520SB-32.768KHZ-NSA3534C,opendous:OSCILLATOR,Crystals:Crystal_SMD_2520-4pin_2.5x2.0mm,,ASDK2-32.768KHz-LRT
+66,1,Y1,24MHz,device:Crystal,Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm,,7A-24.000MAAJ-T
+67,1,Y2,32.768kHz,device:Crystal,Crystals:Crystal_SMD_3215-2pin_3.2x1.5mm,,ABS07-32.768KHZ-7-T
